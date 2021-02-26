@@ -88,7 +88,7 @@
             <a href="<?= base_url('Estudiante')?>" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Widgets
+                Estudiantes
                 <span class="right badge badge-danger">New</span>
               </p>
             </a>
@@ -97,7 +97,7 @@
             <a href="<?= base_url('Docente')?>" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Widgets2
+                Docentes
                 <span class="right badge badge-danger">New</span>
               </p>
             </a>
