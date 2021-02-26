@@ -19,5 +19,9 @@ class Docente extends BaseController
 		echo view('docentes/general');
 		echo view('docentes/content_table', $data);
 	}
+	public function registro()
+	{
+		echo view('docentes/forms/Formudocen');
+	}
     
 }

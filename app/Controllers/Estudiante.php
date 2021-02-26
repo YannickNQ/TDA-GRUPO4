@@ -20,4 +20,8 @@ class Estudiante extends BaseController
 		echo view('estudiantes/general');
 		echo view('estudiantes/content_table', $data);
 	}
+	public function registro(){
+		echo view('estudiantes/forms/FormuEstu');
+	}
+	
 }
