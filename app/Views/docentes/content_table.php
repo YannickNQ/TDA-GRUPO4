@@ -54,7 +54,7 @@
             <td><?= $key->doce_fechaint ?></td>
             <td>
               <div class="d-flex justify content-around">
-                <button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#Modal<?=$key->doce_id?>">Edit</button>
+                <button type="button" class="btn btn-warning btn-sm editar" data-toggle="modal" data-target="#Modal<?=$key->doce_id?>">Edit</button>
                 <div class="modal fade" id="Modal<?=$key->doce_id?>" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content text-dark">
