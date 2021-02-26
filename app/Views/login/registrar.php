@@ -61,10 +61,10 @@
             </div>
             </div>
             <!-- /.col -->
-            <div class="form-group col-12 align-center">
-                <div class="col-6 ">
-                    <button type="submit" class="btn btn-outline-primary btn-sm btn-block">Registrar</button>
-                </div>
+            <div class="d-flex justify-content-center col-12">
+                
+                <button type="submit" class="col-6 btn btn-outline-primary btn-sm btn-block">Registrar</button>
+                
             </div>
             
             <!-- /.col -->
