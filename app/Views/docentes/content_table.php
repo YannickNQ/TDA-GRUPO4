@@ -1,20 +1,20 @@
 <div class="content-wrapper">
 <?=$this->renderSection('table_doc') ?>
   <div class="container table-responsive">
-    <table class="table table-hover table-bordered table-condensed">
+    <table class="table table-hover table-bordered table-condensed table-dark">
       <thead>
         <tr>
-          <th>#</th>
-          <th>Nombres</th>
-          <th>Apellidos</th>
-          <th>DNI</th>
-          <th>Correo</th>
-          <th>Teléfono</th>
-          <th>Grado</th>
-          <th>Título</th>
-          <th>Nacionalidad</th>
-          <th>Edad</th>
-          <th>Ingreso</th>
+          <th><i class="fas fa-sort-amount-down"></th>
+          <th>Nombres<i class="d-inline fas fa-file-signature"></th>
+          <th>Apellidos<i class="d-inline fas fa-file-signature"></th>
+          <th>DNI <i class=" fas fa-id-card float-right py-1"></th>
+          <th>Correo <i class="fas fa-envelope float-right py-1" ></i></th>
+          <th>Teléfono<i class="d-inline fas fa-phone-square"></i></th>
+          <th>Grado<i class="d-inline fas fa-user-graduate float-right py-1"></i></th>
+          <th>Título<i class="d-inline fas fa-graduation-cap float-right py-1"></i></th>
+          <th>Nacionalidad<i class="d-inline fas fa-globe"></i></th>
+          <th>Edad<i class="d-inline fas fa-blind"></i></th>
+          <th>Ingreso<i class="d-inline fas fa-calendar-check"></th>
         </tr>
       </thead>
       <tbody>

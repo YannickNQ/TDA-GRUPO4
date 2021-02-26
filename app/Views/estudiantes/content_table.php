@@ -1,18 +1,18 @@
 <div class="content-wrapper">
 <?=$this->renderSection('table_est') ?>
   <div class="container table-responsive">
-    <table class="table table-hover table-bordered table-condensed">
+    <table class="table table-hover table-bordered table-condensed table-dark">
       <thead>
         <tr>
-          <th>#</th>
-          <th>Nombres</th>
-          <th>Apellidos</th>
-          <th>Edad</th>
-          <th>Correo</th>
-          <th>Carrera</th>
-          <th>Código</th>
-          <th>Teléfono</th>
-          <th>Ciclo</th>
+          <th><i class="fas fa-sort-amount-down"></i</th>
+          <th>Nombres <i class="fas fa-file-signature float-right py-1"></i></th>
+          <th>Apellidos <i class="fas fa-file-signature float-right py-1"></i></th>
+          <th>Edad   <i class=" fas fa-blind float-right py-1"></i></th>
+          <th>Correo <i class="fas fa-envelope float-right py-1"></i></th>
+          <th>Carrera <i class="fas fa-user-graduate float-right py-1"></i></th>
+          <th>Código <i class="fas fa-id-card float-right py-1"></i></th>
+          <th>Teléfono <i class="fas fa-phone-square float-right py-1"></i></th>
+          <th>Ciclo <i class="fas fa-graduation-cap float-right py-1"></i></th>
         </tr>
       </thead>
       <tbody>
