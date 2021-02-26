@@ -17,8 +17,7 @@ class Estudiante extends BaseController
 		// echo view('content_table',$data);
 
 		$data = ['datos_est'=>$model->GetAllData()];
-		echo view('Header');
-		echo view('Menu');
+		echo view('estudiantes/general');
 		echo view('estudiantes/content_table', $data);
 	}
 }

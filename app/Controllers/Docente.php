@@ -6,8 +6,7 @@ class Docente extends BaseController
 {
 	public function index()
 	{
-		echo view('Header');
-		echo view('Menu');
+		echo view('docentes/general');
 	}
     
 }
