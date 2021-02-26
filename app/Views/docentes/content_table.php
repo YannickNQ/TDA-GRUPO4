@@ -19,6 +19,7 @@
       </thead>
       <tbody>
         <?php foreach ($datos_doc as $key): ?>
+          <tr>
           <td><?=$key->doce_id?></td>
           <td><?=$key->doce_nombre?></td>
           <td><?=$key->doce_apellidos?></td>
@@ -30,6 +31,7 @@
           <td><?=$key->doce_nacion?></td>
           <td><?=$key->doce_edad?></td>
           <td><?=$key->doce_fechaint?></td>
+          <tr>
         <?php endforeach; ?>
       </tbody>
     </table>
