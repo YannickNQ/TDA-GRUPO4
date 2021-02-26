@@ -116,3 +116,13 @@ CRITICAL - 2021-02-25 06:03:59 --> Invalid file: content_table.php
 #5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #6 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
 #7 {main}
+CRITICAL - 2021-02-25 19:29:41 --> Invalid file: Template/Footer.php
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Template/Footer...')
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(236): CodeIgniter\View\View->render('Template/Footer', Array, true)
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('estudiantes/gen...', Array, true)
+#3 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(20): view('estudiantes/gen...')
+#4 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->index()
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

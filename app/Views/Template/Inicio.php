@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>TDA-GRUPO4 | Dashboard</title>
+  <title>AdminLTE 3 | Dashboard</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="<?=base_url()?>/public/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="public/plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Tempusdominus Bbootstrap 4 -->
@@ -64,7 +64,7 @@
     <a href="index3.html" class="brand-link">
       <img src="public/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">TDA-GRUPO4</span>
+      <span class="brand-text font-weight-light">AdminLTE 3</span>
     </a>
 
     <!-- Sidebar -->
@@ -88,7 +88,7 @@
             <a href="<?= base_url('Estudiante')?>" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Estudiantes
+                Widgets
                 <span class="right badge badge-danger">New</span>
               </p>
             </a>
@@ -97,7 +97,7 @@
             <a href="<?= base_url('Docente')?>" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Docentes
+                Widgets2
                 <span class="right badge badge-danger">New</span>
               </p>
             </a>
@@ -108,17 +108,6 @@
     </div>
     <!-- /.sidebar -->
   </aside>
-
-  <!-- Content Wrapper. Contains page content -->
- 
-  <!-- /.content-wrapper -->
-  <footer class="main-footer">
-    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong>
-    All rights reserved.
-    <div class="float-right d-none d-sm-inline-block">
-      <b>Version</b> 3.0.5
-    </div>
-  </footer>
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">

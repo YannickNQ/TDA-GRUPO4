@@ -1,6 +1,6 @@
 <?=$this->extend('Template/Inicio') ?>
 
-<?=$this->section('content') ?>
+<?=$this->section('table_est') ?>
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
