@@ -4,11 +4,13 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class MGeneral extends Model
+class ModelDocente extends Model
 {
-    public function ListarNombres(){
-      
-    }
+    public function GetAllData()
+  {
+    $data = $this->db->query("SELECT * FROM docentes");
+    return $data->getResult();
+  }
 }
 
 ?>

@@ -1,18 +1,18 @@
 <div class="content-wrapper">
 <?=$this->renderSection('table_est') ?>
-  <div class="container">
-    <table class="table table-hover">
+  <div class="container table-responsive">
+    <table class="table table-hover table-bordered table-condensed">
       <thead>
         <tr>
-          <td>#</td>
-          <td>Nombres</td>
-          <td>Apellidos</td>
-          <td>Edad</td>
-          <td>Correo</td>
-          <td>Carrera</td>
-          <td>Código</td>
-          <td>Teléfono</td>
-          <td>Ciclo</td>
+          <th>#</th>
+          <th>Nombres</th>
+          <th>Apellidos</th>
+          <th>Edad</th>
+          <th>Correo</th>
+          <th>Carrera</th>
+          <th>Código</th>
+          <th>Teléfono</th>
+          <th>Ciclo</th>
         </tr>
       </thead>
       <tbody>
