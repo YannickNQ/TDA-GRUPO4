@@ -1,7 +1,7 @@
 <div class="content-wrapper">
   <?= $this->renderSection('table_doc') ?>
   <div class="container table-responsive">
-    <table class="table table-hover table-bordered table-dark table-striped table-sm">
+    <table class="table table-hover table-bordered table-striped table-sm">
       <thead>
         <tr>
           <th><i class="fas fa-sort-amount-down"></i></th>
@@ -54,18 +54,18 @@
             <td><?= $key->doce_fechaint ?></td>
             <td>
               <div class="d-flex justify content-around">
-                <button type="button" class="btn btn-warning btn-sm editar" data-toggle="modal" data-target="#Modal<?=$key->doce_id?>">Edit</button>
-                <div class="modal fade" id="Modal<?=$key->doce_id?>" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+                <button type="button" class="btn btn-warning btn-sm editar" data-toggle="modal" data-target="#Modal<?= $key->doce_id ?>">Edit</button>
+                <div class="modal fade" id="Modal<?= $key->doce_id ?>" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content text-dark">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="ModalLabel">Modal title <?=$key->doce_id?></h5>
+                        <h5 class="modal-title" id="ModalLabel">EDITAR DOCENTE <?= $key->doce_id ?></h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
                       <div class="modal-body">
-                        
+
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -83,4 +83,10 @@
     </table>
   </div>
 </div>
-<script src="<?=base_url()?>/public/assets/scriptAjax.js"></script>
+<script>
+  $(document).ready(function() {
+    $('.editar').click(function() {
+      $('.modal-body').load('/TDA-GRUPO4/Docente/Editar/1');
+    })
+  });
+</script>

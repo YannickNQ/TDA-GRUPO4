@@ -1,7 +1,7 @@
 <div class="content-wrapper">
   <?= $this->renderSection('table_est') ?>
   <div class="container table-responsive">
-    <table class="table table-hover table-bordered table-dark table-striped table-sm">
+    <table class="table table-hover table-bordered table-striped table-sm">
       <thead>
         <tr>
           <th><i class="fas fa-sort-amount-down"></i></th>
