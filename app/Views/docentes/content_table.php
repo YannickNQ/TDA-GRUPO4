@@ -14,7 +14,7 @@
           <th>Título</th>
           <th>Nacionalidad</th>
           <th>Edad</th>
-          <th>Fecha de Union</th>
+          <th>Ingreso</th>
         </tr>
       </thead>
       <tbody>
