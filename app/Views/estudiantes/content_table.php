@@ -1,7 +1,7 @@
 <div class="content-wrapper">
 <?=$this->renderSection('table_est') ?>
   <div class="container">
-    <table class="table table-hover table-responsive">
+    <table class="table table-hover">
       <thead>
         <tr>
           <td>#</td>
