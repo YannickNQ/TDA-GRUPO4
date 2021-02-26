@@ -26,6 +26,8 @@
   <link rel="stylesheet" href="public/plugins/summernote/summernote-bs4.css">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <!-- COMPONENTS -->
+  <!-- <link rel="stylesheet" href="<?=base_url()?>/public/dist/css/alt/adminlte.components.min.css"> -->
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -53,7 +55,8 @@
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
-      <li><a href="#" class="btn btn-success">Registrar</a></li>
+      <!-- <li><a href="#" class="btn btn-success mx-1">Registrar</a></li> -->
+      <li><a href="#" class="btn btn-danger">Cerrar Sesion</a></li>
     </ul>
   </nav>
   <!-- /.navbar -->
@@ -61,11 +64,11 @@
   <!-- Main Sidebar Container -->
   <aside class="bg-l-3 main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
+    <div class="brand-link" style="cursor:pointer">
       <img src="public/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
       <span class="brand-text font-weight-light">TDA-GRUPO4</span>
-    </a>
+    </div>
 
     <!-- Sidebar -->
     <div class="sidebar">
@@ -151,5 +154,11 @@
 <script src="public/dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="public/dist/js/demo.js"></script>
+<!-- For Modal -->
+<!-- <script src="<?=base_url()?>/public/plugins/jquery/jquery.slim.min.js"></script> -->
+<!-- <script src="<?=base_url()?>/public/plugins/popper/popper.min.js"></script> -->
+<script src="<?=base_url()?>/public/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- Ajax -->
+
 </body>
 </html>

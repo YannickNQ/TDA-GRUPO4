@@ -10,7 +10,7 @@
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li><a href="#" class="btn btn-dark">Registrar Docente</a></li>
+              <li><a href="#" class="btn btn-outline-dark">Registrar Docente <i class="fas fa-user-plus"></i></a></li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
