@@ -21,7 +21,6 @@ class Estudiante extends BaseController
 		
 	}
 	public function Actualizar(){
-
 	}
 	public function Eliminar(){
 

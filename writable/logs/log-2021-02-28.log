@@ -1,0 +1,186 @@
+CRITICAL - 2021-02-28 15:10:58 --> Undefined property: App\Controllers\Docente::$load
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Register()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-28 15:11:38 --> Undefined property: App\Controllers\Docente::$load
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Register()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-28 15:11:39 --> Undefined property: App\Controllers\Docente::$load
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Register()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-28 15:12:47 --> Undefined property: App\Controllers\Docente::$load
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Register()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-28 15:13:03 --> Undefined property: App\Controllers\Docente::$load
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Register()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-28 15:13:05 --> Undefined property: App\Controllers\Docente::$load
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Register()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-28 15:13:24 --> Undefined property: App\Controllers\Docente::$load
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Register()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-28 15:14:36 --> Undefined property: App\Controllers\Docente::$load
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Register()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-28 15:14:38 --> Undefined property: App\Controllers\Docente::$load
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Register()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-28 15:17:03 --> Undefined property: App\Controllers\Docente::$load
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Register()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-28 15:17:04 --> Undefined property: App\Controllers\Docente::$load
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Register()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-28 15:38:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(25): App\Models\ModelDocente->GetDataWhere('1')
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Editar('1')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-28 15:39:35 --> Undefined variable: doce_nombre
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Views\docentes\forms\FormEditar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('docentes/forms/...', Array, true)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(27): view('docentes/forms/...', Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Editar('1')
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-28 15:40:56 --> Undefined variable: datos_doc
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Views\docentes\forms\FormEditar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('docentes/forms/...', Array, true)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(26): view('docentes/forms/...', Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Editar('1')
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-28 15:41:37 --> syntax error, unexpected ']'
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Docente/Editar/...')
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Docente/Editar/...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-28 15:41:47 --> Undefined variable: doce_id
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Views\docentes\forms\FormEditar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('docentes/forms/...', Array, true)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(26): view('docentes/forms/...', Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Editar('1')
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-28 15:44:14 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('docentes/forms/...', Array, true)
+#3 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(26): view('docentes/forms/...', Array)
+#4 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Editar('1')
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-28 15:44:27 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('docentes/forms/...', Array, true)
+#3 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(26): view('docentes/forms/...', Array)
+#4 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Editar('1')
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-28 15:44:37 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('docentes/forms/...', Array, true)
+#3 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(26): view('docentes/forms/...', Array)
+#4 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Editar('1')
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-28 15:48:32 --> Undefined variable: datos_doc
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Views\docentes\forms\FormEditar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('docentes/forms/...', Array, true)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(27): view('docentes/forms/...', Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Editar('2')
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-28 15:48:39 --> Undefined property: CodeIgniter\View\View::$doce_id
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Views\docentes\forms\FormEditar.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('docentes/forms/...', Array, true)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(27): view('docentes/forms/...', Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Editar('2')
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-28 15:55:36 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('docentes/forms/...', Array, true)
+#3 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(26): view('docentes/forms/...', Array)
+#4 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Editar('2')
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

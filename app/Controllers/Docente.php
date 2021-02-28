@@ -21,25 +21,37 @@ class Docente extends BaseController
 	}
 	public function Editar($id)
 	{
-		echo view('docentes/forms/FormEditar', array('myid' => $id));
+		$model = new ModelDocente();
+		$data = ['datos_doc' => $model->GetDataWhere($id)];
+		echo view('docentes/forms/FormEditar', $data);
 	}
 	public function Registrar()
 	{
 		echo view('docentes/general');
 		echo view('docentes/forms/FormRegistrar');
 	}
-	public function Register(){
-		$data = array(
-			$this->load->post('nombres'),
-			$this->load->post('apellidos'),
-			$this->load->post('dni'),
-			$this->load->post('mail'),
-			$this->load->post('telef'),
-			$this->load->post('grado'),
-			$this->load->post('titulo'),
-			$this->load->post('nacionalidad'),
-			$this->load->post('edad'),
-		);
-		$model = new ModelDocente();
+	public function Update()
+	{
+	}
+	public function Register()
+	{
+
+		// if(!isset($_POST['nombres']))
+			// header("location: ".base_url()."/Docente");
+		// else{
+			$data = array(
+				"nombres" => $this->load->post('nombres'),
+				'apellidos'=> $this->load->post('apellidos'),
+				'dni' => $this->load->post('dni'),
+				'mail' => $this->load->post('mail'),
+				'telef' => $this->load->post('telef'),
+				'grado' => $this->load->post('grado'),
+				'titulo' => $this->load->post('titulo'),
+				'nacionalidad' => $this->load->post('nacionalidad'),
+				'edad' => $this->load->post('edad'),
+			);
+			print_r($data);
+			// $model = new ModelDocente();
+		// }
 	}
 }

@@ -54,7 +54,7 @@
             <td><?= $key->doce_fechaint ?></td>
             <td>
               <div class="d-flex justify content-around">
-                <button type="button" class="btn btn-warning btn-sm editar" data-toggle="modal" data-target="#Modal<?= $key->doce_id ?>">Edit</button>
+                <button href="/TDA-GRUPO4/Docente/Editar/<?= $key->doce_id ?>" class="btn btn-warning btn-sm editar" data-toggle="modal" data-target="#Modal<?= $key->doce_id ?>">Edit</button>
                 <div class="modal fade" id="Modal<?= $key->doce_id ?>" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content text-dark">
@@ -86,7 +86,7 @@
 <script>
   $(document).ready(function() {
     $('.editar').click(function() {
-      $('.modal-body').load('/TDA-GRUPO4/Docente/Editar/1');
+      $('.modal-body').load($(this).attr('href'));
     })
   });
 </script>
