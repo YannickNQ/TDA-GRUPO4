@@ -16,6 +16,14 @@ class Estudiante extends BaseController
 		];
 		echo view('estudiantes/general',$data);
 	}
+	public function Editar($id)
+	{
+		$model = new ModelStudent();
+		$data = [
+			'datos_estu' => $model->GetDataWhere($id),
+		];
+		echo view('estudiantes/forms/FormEditar', $data);
+	}
 	public function Registro(){
 		echo view('estudiantes/forms/FormuEstu');
 	}
@@ -23,6 +31,9 @@ class Estudiante extends BaseController
 		
 	}
 	public function Actualizar(){
+		echo "Enviado correctamente";
+		echo $_POST['nombre'];
+		
 	}
 	public function Eliminar(){
 

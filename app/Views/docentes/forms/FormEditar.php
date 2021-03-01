@@ -120,7 +120,7 @@
             <div class="d-flex justify-content-center col-12">
                 <button type="submit" class="col-6 btn btn-outline-dark btn-sm btn-block">Registrar</button>
             </div>
-        
+        </form>
     </div>
 
     <!-- </div> -->

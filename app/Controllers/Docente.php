@@ -24,7 +24,9 @@ class Docente extends BaseController
 	public function Editar($id)
 	{
 		$model = new ModelDocente();
-		$data = ['datos_doc' => $model->GetDataWhere($id)];
+		$data = [
+			'datos_doc' => $model->GetDataWhere($id),
+		];
 		echo view('docentes/forms/FormEditar', $data);
 	}
 	public function Registrar()

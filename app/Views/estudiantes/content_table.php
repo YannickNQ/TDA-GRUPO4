@@ -74,9 +74,9 @@
     </table>
   </div>
   <script>
-    $(document).ready(function() {
+    window.onload = function() {
       $('.editar').click(function() {
-        $('.modal-body').load($(this).attr('href'));
+        $('.modal-body').load($(this).attr('href') + "  .login-card-body");
       })
-    });
+    }
   </script>
