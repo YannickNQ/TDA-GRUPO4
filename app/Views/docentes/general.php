@@ -1,6 +1,6 @@
 <?= $this->extend('Template/Inicio') ?>
 
-<?= $this->section('table_doc') ?>
+<?= $this->section('content') ?>
 <!-- Content Header (Page header) -->
 <div class="content-header">
   <div class="container-fluid">
@@ -17,4 +17,7 @@
   </div><!-- /.container-fluid -->
 </div>
 <!-- /.content-header -->
+<div class="content">
+  <?= $this->include('docentes/content_table') ?>
+</div>
 <?= $this->endSection() ?>

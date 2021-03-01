@@ -14,10 +14,12 @@ class Docente extends BaseController
 		// echo "</pre>";
 		// $data = ['numero'=>3];
 		// echo view('content_table',$data);
-
-		$data = ['datos_doc' => $model->GetAllData()];
-		echo view('docentes/general');
-		echo view('docentes/content_table', $data);
+		$data = [
+			'datos_doc' => $model->GetAllData(),
+			'title' => "Docentes"
+		];
+		echo view('docentes/general',$data);
+		// echo view('docentes/content_table');
 	}
 	public function Editar($id)
 	{

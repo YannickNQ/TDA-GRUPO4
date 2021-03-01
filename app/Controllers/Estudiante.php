@@ -10,9 +10,11 @@ class Estudiante extends BaseController
 	public function index()
 	{
 		$model = new ModelStudent();
-		$data = ['datos_est'=>$model->GetAllData()];
-		echo view('estudiantes/general');
-		echo view('estudiantes/content_table', $data);
+		$data = [
+			'datos_est'=>$model->GetAllData(),
+			'title'=>"Estudiantes"
+		];
+		echo view('estudiantes/general',$data);
 	}
 	public function Registro(){
 		echo view('estudiantes/forms/FormuEstu');

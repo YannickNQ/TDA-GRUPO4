@@ -1,7 +1,5 @@
-<div class="content-wrapper">
-  <?= $this->renderSection('table_est') ?>
   <div class="container table-responsive">
-    <table class="table table-hover table-bordered table-striped table-sm">
+    <table class="table table-hover table-bordered table-striped table-sm shadow">
       <thead>
         <tr>
           <th><i class="fas fa-sort-amount-down"></i></th>
@@ -34,23 +32,51 @@
       </thead>
       <tbody>
         <?php foreach ($datos_est as $key) : ?>
-          <td><?= $key->estu_id ?></td>
-          <td><?= $key->estu_nombres ?></td>
-          <td><?= $key->estu_apellidos ?></td>
-          <td><?= $key->estu_edad ?></td>
-          <td><?= $key->estu_correo ?></td>
-          <td><?= $key->estu_carrera ?></td>
-          <td><?= $key->estu_codigo ?></td>
-          <td><?= $key->estu_telf ?></td>
-          <td><?= $key->estu_ciclo ?></td>
-          <td>
-            <div class="d-flex justify content-around">
-              <div class="btn btn-warning btn-sm">Edit</div>
-              <div class="btn btn-danger btn-sm">Delete</div>
-            </div>
-          </td>
+          <tr>
+            <td><?= $key->estu_id ?></td>
+            <td><?= $key->estu_nombres ?></td>
+            <td><?= $key->estu_apellidos ?></td>
+            <td><?= $key->estu_edad ?></td>
+            <td><?= $key->estu_correo ?></td>
+            <td><?= $key->estu_carrera ?></td>
+            <td><?= $key->estu_codigo ?></td>
+            <td><?= $key->estu_telf ?></td>
+            <td><?= $key->estu_ciclo ?></td>
+            <td>
+              <div class="d-flex justify content-around">
+                <button type="button" href="/TDA-GRUPO4/Estudiante/Editar/<?= $key->estu_id ?>" class="btn btn-warning btn-sm editar" data-toggle="modal" data-target="#Modal<?= $key->estu_id ?>">Edit</button>
+                <div class="modal fade" id="Modal<?= $key->estu_id ?>" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content text-dark">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="ModalLabel">EDITAR ESTUDIANTE <?= $key->estu_id ?></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <!-- <button type="submit" class="btn btn-primary">Save changes</button> -->
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="btn btn-danger btn-sm">Delete</div>
+              </div>
+            </td>
+          </tr>
         <?php endforeach; ?>
       </tbody>
     </table>
   </div>
-</div>
+  <script>
+    $(document).ready(function() {
+      $('.editar').click(function() {
+        $('.modal-body').load($(this).attr('href'));
+      })
+    });
+  </script>
