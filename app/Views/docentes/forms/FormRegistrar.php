@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+
 <body class="hold-transition login-page">
   <div class="login-box mx-auto">
     <!-- <div class="login-logo">
@@ -98,11 +101,10 @@
           </div>
 
           <!-- /.col -->
+        </form>
       </div>
-      </form>
     </div>
     <!-- /.login-card-body -->
-  </div>
   </div>
   <!-- /.login-box -->
 
@@ -111,3 +113,6 @@
   <script src="<?= base_url('') ?>/public/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- AdminLTE App -->
   <script src="<?= base_url('') ?>/public/dist/js/adminlte.min.js"></script>
+</body>
+
+</html>

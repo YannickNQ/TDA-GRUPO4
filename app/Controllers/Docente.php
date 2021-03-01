@@ -28,10 +28,7 @@ class Docente extends BaseController
 		echo view('docentes/general');
 		echo view('docentes/forms/FormRegistrar');
 	}
-	public function Actualizar()
-	{
-	}
-	public function Register()
+	public function Registrando()
 	{
 
 		// if(!isset($_POST['nombres']))
@@ -52,4 +49,8 @@ class Docente extends BaseController
 			// $model = new ModelDocente();
 		// }
 	}
+	public function Actualizar()
+	{
+	}
+
 }

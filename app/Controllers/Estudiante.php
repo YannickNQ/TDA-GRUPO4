@@ -24,8 +24,11 @@ class Estudiante extends BaseController
 		];
 		echo view('estudiantes/forms/FormEditar', $data);
 	}
-	public function Registro(){
+	public function Registrar(){
 		echo view('estudiantes/forms/FormuEstu');
+	}
+	public function Registrando(){
+		
 	}
 	public function Crear(){
 		
