@@ -1,4 +1,4 @@
-  <div class="container table-responsive">
+  <div class="container-fluid table-responsive">
     <table class="table table-hover table-bordered table-striped table-sm shadow">
       <thead>
         <tr>
@@ -44,7 +44,7 @@
             <td><?= $key->estu_ciclo ?></td>
             <td>
               <div class="d-flex justify content-around">
-                <button type="button" href="/TDA-GRUPO4/Estudiante/Editar/<?= $key->estu_id ?>" class="btn btn-warning btn-sm editar" data-toggle="modal" data-target="#Modal<?= $key->estu_id ?>">Edit</button>
+                <button type="button" href="<?=base_url()?>/Estudiante/Editar/<?= $key->estu_id ?>" class="btn btn-warning btn-sm editar" data-toggle="modal" data-target="#Modal<?= $key->estu_id ?>">Edit</button>
                 <div class="modal fade" id="Modal<?= $key->estu_id ?>" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content text-dark">

@@ -27,7 +27,7 @@
       color: white;
     }
   </style>
-  <title>Editar Docente</title>
+  <title>Editar Estudiante</title>
 </head>
 
 <body class="hold-transition login-page">
@@ -37,7 +37,7 @@
     </div>
     <!-- /.login-logo -->
     <div class="card">
-      <div class="card-body login-card-body bg-gradient-red ">
+      <div class="card-body login-card-body">
         <p class="login-box-msg">Bienvenido! Edita tus datos</p>
         <form action="<?= base_url('Estudiante/Actualizar') ?>" method="post">
           <div class="input-group mb-3">
@@ -129,5 +129,4 @@
   <!-- AdminLTE App -->
   <script src="<?= base_url('') ?>/public/dist/js/adminlte.min.js"></script>
 </body>
-
 </html>
