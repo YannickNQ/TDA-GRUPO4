@@ -1,9 +1,9 @@
-  <div class="container-fluid table-responsive">
+  <div class="container-fluid">
     <div class="card">
       <div class="card-header">
         <h3 class="card-title">Lista de los Estudiantes</h3>
       </div>
-      <div class="card-body">
+      <div class="card-body table-responsive">
         <table class="table table-hover table-bordered table-sm shadow">
           <thead class="thead--inverse thead-light">
             <tr>

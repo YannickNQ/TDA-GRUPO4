@@ -1,11 +1,9 @@
-<style link="http://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css"></style>
-<style link="http://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></style>
-<div class="container-fluid table-responsive">
+<div class="container-fluid">
   <div class="card">
     <div class="card-header">
       <h3 class="card-title">Lista de los docentes</h3>
     </div>
-    <div class="card-body">
+    <div class="card-body table-responsive">
       <table id="#aea" class="table table-hover table-bordered table-sm shadow">
         <thead class="thead-inverse thead-light">
           <tr>
@@ -44,9 +42,10 @@
           </tr>
         </thead>
         <tbody>
-          <?php foreach ($datos_doc as $key) : ?>
+          <?php $a=1; foreach ($datos_doc as $key) : ?>
             <tr>
-              <td><?= $key->doce_id ?></td>
+              <td><?= $a++ ?></td>
+              <!-- <td><?= $key->doce_id ?></td> -->
               <td><?= $key->doce_nombre ?></td>
               <td><?= $key->doce_apellidos ?></td>
               <td><?= $key->doce_dni ?></td>
@@ -88,7 +87,6 @@
     </div>
   </div>
 </div>
-
 <script>
   window.onload = function() {
     $('.editar').click(function() {

@@ -24,8 +24,10 @@ class ModelStudent extends Model
     $data = $this->db->query("SELECT * FROM estudiantes WHERE estu_id=" . $id);
     return $data->getResult();
   }
-  public function InsertData($values){
-
+  public function InsertData($values)
+  {
+    $builder = $this->db->table('estudiantes');
+    $builder->insert($values);
   }
   public function UpdateData($values, $id = null)
   {

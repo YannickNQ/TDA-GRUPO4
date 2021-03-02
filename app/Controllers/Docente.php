@@ -28,7 +28,6 @@ class Docente extends BaseController
 	}
 	public function FormRegistrar()
 	{
-		$model = new ModelDocente();
 		$data = [
 			'title' => "Registrar Datos",
 			'content' => "forms/FormRegistrar",
@@ -41,7 +40,7 @@ class Docente extends BaseController
 	public function Registrar()
 	{
 		$request = \Config\Services::request();
-		if(!$request->getPost('nombres')){
+		if (!$request->getPost('nombres')) {
 			echo "<h3>REDIRECCIONANDO...</h3>";
 			echo '<script> window.location.replace("' . base_url() . '/Docente' . '"); </script>';
 		}
@@ -65,7 +64,7 @@ class Docente extends BaseController
 	public function Actualizar()
 	{
 		$request = \Config\Services::request();
-		if(!$request->getPost('nombres')){
+		if (!$request->getPost('nombres')) {
 			echo "<h3>REDIRECCIONANDO...</h3>";
 			echo '<script> window.location.replace("' . base_url() . '/Docente' . '"); </script>';
 		}
@@ -85,7 +84,8 @@ class Docente extends BaseController
 		$this->Index();
 		// redirect('Docente/Index/');
 	}
-	public function Eliminar($id = null){
+	public function Eliminar($id = null)
+	{
 		$model = new ModelDocente();
 		$model->DeleteDataById($id);
 		$this->Index();

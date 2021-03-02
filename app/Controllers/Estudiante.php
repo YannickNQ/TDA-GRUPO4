@@ -11,7 +11,9 @@ class Estudiante extends BaseController
 		$model = new ModelStudent();
 		$data = [
 			'datos_est' => $model->GetAllData(),
-			'title' => "Estudiantes"
+			'title' => "Estudiantes",
+			'content' => 'content_table',
+			'registrarEst' => true,
 		];
 		echo view('estudiantes/general', $data);
 	}
@@ -25,8 +27,12 @@ class Estudiante extends BaseController
 	}
 	public function FormRegistrar()
 	{
-		$model = new ModelStudent();
-		echo view('estudiantes/forms/FormRegistrar');
+		$data = [
+			'title' => 'Registrar Datos',
+			'content' => 'forms/FormRegistrar',
+			'registrarEst' => false,
+		];
+		echo view('estudiantes/general', $data);
 	}
 	public function Registrar()	
 	{
@@ -45,6 +51,9 @@ class Estudiante extends BaseController
 			'estu_telf' => $request->getPost('telefono'),
 			'estu_ciclo' => $request->getPost('ciclo'),
 		);
+		$model = new ModelStudent();
+		$model->InsertData($data);
+		echo '<script> window.location.replace("' . base_url() . '/Estudiante' . '"); </script>';
 	}
 	public function Actualizar()
 	{
