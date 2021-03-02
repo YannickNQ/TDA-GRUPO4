@@ -23,9 +23,8 @@ class Docente extends BaseController
 		];
 		echo view('docentes/forms/FormEditar', $data);
 	}
-	public function Registrar()
+	public function FormRegistrar()
 	{
-		echo view('docentes/general');
 		echo view('docentes/forms/FormRegistrar');
 	}
 	public function Registrando()

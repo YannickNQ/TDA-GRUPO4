@@ -11,10 +11,10 @@ class Estudiante extends BaseController
 	{
 		$model = new ModelStudent();
 		$data = [
-			'datos_est'=>$model->GetAllData(),
-			'title'=>"Estudiantes"
+			'datos_est' => $model->GetAllData(),
+			'title' => "Estudiantes"
 		];
-		echo view('estudiantes/general',$data);
+		echo view('estudiantes/general', $data);
 	}
 	public function Editar($id)
 	{
@@ -24,22 +24,44 @@ class Estudiante extends BaseController
 		];
 		echo view('estudiantes/forms/FormEditar', $data);
 	}
-	public function Registrar(){
-		echo view('estudiantes/forms/FormuEstu');
+	public function FormRegistrar()
+	{
+		if (!isset($_POST['nombres'])) {
+			echo "<h3>REDIRECCIONANDO...</h3>";
+			echo '<script> window.location.replace("' . base_url() . '/Estudiante' . '"); </script>';
+		}
+		$model = new ModelStudent();
+		echo view('estudiantes/forms/FormRegistrar');
 	}
-	public function Registrando(){
-		
+	public function Registrando()
+	{
 	}
-	public function Crear(){
-		
+	public function Actualizar()
+	{
+		if (!isset($_POST['nombres'])) {
+			echo "<h3>REDIRECCIONANDO...</h3>";
+			echo '<script> window.location.replace("' . base_url() . '/Estudiante' . '"); </script>';
+		}
+		$model = new ModelStudent();
+		$data = array(
+			'estu_nombres' => $_POST['nombres'],
+			'estu_apellidos' => $_POST['apellidos'],
+			'estu_edad' => $_POST['edad'],
+			'estu_correo' => $_POST['correo'],
+			'estu_carrera' => $_POST['carrera'],
+			'estu_codigo' => $_POST['codigo'],
+			'estu_telf' => $_POST['telefono'],
+			'estu_ciclo' => $_POST['ciclo'],
+		);
+		$model->UpdateData($data, $_POST['id']);
+		$this->index();
 	}
-	public function Actualizar(){
-		echo "Enviado correctamente";
-		echo $_POST['nombre'];
-		
+	public function EliminarPorId($id)
+	{
+		// $this->index();
+		$model = new ModelStudent();
+		echo $model->DeleteData($id);
+		// echo "Deleting estu_id = $id...";
+		$this->index();
 	}
-	public function Eliminar(){
-
-	}
-	
 }

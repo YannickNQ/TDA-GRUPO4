@@ -65,7 +65,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="btn btn-danger btn-sm">Delete</div>
+                  <a href="<?=base_url('/EliminarPorId'.'/'.$key->estu_id)?>" class="btn btn-danger btn-sm">Delete</a>
               </div>
             </td>
           </tr>

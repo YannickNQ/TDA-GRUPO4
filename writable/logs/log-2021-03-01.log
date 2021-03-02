@@ -1,0 +1,171 @@
+CRITICAL - 2021-03-01 08:59:15 --> Undefined index: nombre
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->Actualizar()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-01 08:59:25 --> Undefined index: nombre
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->Actualizar()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-01 09:01:09 --> Undefined index: submit
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->Actualizar()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-01 15:08:40 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(40): redirect('http://localhos...')
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->Actualizar()
+#4 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-01 15:10:48 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(40): redirect('http://localhos...')
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->Actualizar()
+#4 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-01 16:25:59 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(52): redirect('./Estudiante/')
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->Actualizar()
+#4 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-01 16:26:05 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(52): redirect('Estudiante/')
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->Actualizar()
+#4 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-01 16:35:20 --> Undefined index: submit
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->Actualizar()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-01 16:35:45 --> Undefined index: telef
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->Actualizar()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-01 16:37:54 --> Undefined variable: id
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->Actualizar()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-03-01 16:44:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sucari,`estu_edad`=21,`estu_correo`=ommamanis@est.unap.edu.pe,`estu_carrera`=...' at line 1 in C:\xampp\htdocs\TDA-GRUPO4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `estudia...')
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `estudia...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `estudia...')
+#3 C:\xampp\htdocs\TDA-GRUPO4\app\Models\ModelStudent.php(30): CodeIgniter\Database\BaseConnection->query('UPDATE `estudia...')
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(50): App\Models\ModelStudent->UpdateData('1', Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->Actualizar()
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-01 16:44:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sucari,`estu_edad`=21,`estu_correo`=ommamanis@est.unap.edu.pe,`estu_carrera`=...' at line 1
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `estudia...')
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `estudia...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `estudia...')
+#3 C:\xampp\htdocs\TDA-GRUPO4\app\Models\ModelStudent.php(30): CodeIgniter\Database\BaseConnection->query('UPDATE `estudia...')
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(50): App\Models\ModelStudent->UpdateData('1', Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->Actualizar()
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-01 17:21:37 --> mysqli_sql_exception: Unknown column 'nombres' in 'field list' in C:\xampp\htdocs\TDA-GRUPO4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `estudia...')
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `estudia...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `estudia...')
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `estudia...', Array, false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Models\ModelStudent.php(34): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(50): App\Models\ModelStudent->UpdateData('1', Array)
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->Actualizar()
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#8 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-03-01 17:21:37 --> Unknown column 'nombres' in 'field list'
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `estudia...')
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `estudia...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `estudia...')
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `estudia...', Array, false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Models\ModelStudent.php(34): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(50): App\Models\ModelStudent->UpdateData('1', Array)
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->Actualizar()
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#8 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-03-01 18:17:57 --> syntax error, unexpected '}', expecting ';' or ','
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Estudiante/Edit...')
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Estudiante/Edit...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-01 18:18:02 --> syntax error, unexpected '}', expecting ';' or ','
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-01 18:40:46 --> Undefined index: nombres
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->Actualizar()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-01 18:47:39 --> Undefined index: nombres
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->Actualizar()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-01 18:50:21 --> Undefined index: nombres
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->Actualizar()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-01 18:50:27 --> Undefined index: nombres
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->Actualizar()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

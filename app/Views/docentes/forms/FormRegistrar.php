@@ -10,7 +10,7 @@
     <div class="card mt-2">
       <div class="card-body login-card-body bg-gradient-red ">
         <p class="login-box-msg">Bienvenido! Rellena tus datos para que sean registrados</p>
-        <form action="<?= base_url('Docente/Register') ?>" method="post">
+        <form action="<?= base_url('Docente/Registrar') ?>" method="post">
           <div class="input-group mb-3">
             <input type="text" id="nombres" class="form-control " placeholder="Nombres" name="nombres">
             <div class="input-group-append">

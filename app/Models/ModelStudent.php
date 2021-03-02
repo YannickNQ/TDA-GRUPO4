@@ -13,32 +13,23 @@ class ModelStudent extends Model
   }
   public function GetDataWhere($id)
   {
-    $data = $this->db->query("SELECT * FROM estudiantes WHERE estu_id=".$id);
+    $data = $this->db->query("SELECT * FROM estudiantes WHERE estu_id=" . $id);
     return $data->getResult();
   }
-  public function UpdateData($id = 0, $values)
+  public function UpdateData($values, $id = 0)
   {
-    $data = $this->db->query(
-      "UPDATE `estudiantes` SET " .
-      "`estu_nombres`=" . $values['nombres'] . "," .
-      "`estu_apellidos`=" . $values['apellidos'] . "," .
-      "`estu_edad`=" . $values['edad'] . "," .
-      "`estu_correo`=" . $values['correo'] . "," .
-      "`estu_carrera`=" . $values['carrera'] . "," .
-      "`estu_codigo`=" . $values['codigo'] . "," .
-      "`estu_telf`=" . $values['telef'] . "," .
-      "`estu_ciclo`=" . $values['ciclo'] . " WHERE `id`=" . $id
-    );
+    $builder = $this->db->table('estudiantes');
+    $builder->set($values);
+    $builder->where('estu_id', $id);
+    $builder->update($values);
+    // $builder->update($values, array('estu_id' => $id));
+    // $builder->insert($values);
   }
-  public function DeleteData()
+  public function DeleteDataBy($id)
   {
-  }
-  public function actualizar($id, $data)
-  {
-    $this->db->query("ESRUDIANTES `estudiantes` ");
-    
-    // $this->db->where($where);
-    // $this->db->update($tabla, $data);
-    // return $this->db->affected_rows();
+    $builder = $this->db->table('estudiantes');
+    $builder->where('estu_id', $id);
+    $builder->delete();
+    // $builder->delete(['estu_id' => $id]);
   }
 }
