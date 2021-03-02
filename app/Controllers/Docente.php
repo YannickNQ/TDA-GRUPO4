@@ -35,6 +35,7 @@ class Docente extends BaseController
 			'registrarDoc' => false,
 		];
 		echo view('docentes/general', $data);
+		// redirect('mainController/Student_Login/');
 		// echo view('docentes/forms/FormRegistrar');
 	}
 	public function Registrar()
@@ -58,6 +59,7 @@ class Docente extends BaseController
 		// print_r($data);
 		$model = new ModelDocente();
 		$model->InsertData($data);
+		// redirect('/Docente/Index');
 		echo '<script> window.location.replace("' . base_url() . '/Docente' . '"); </script>';
 	}
 	public function Actualizar()
@@ -81,6 +83,7 @@ class Docente extends BaseController
 		$model = new ModelDocente();
 		$model->UpdateData($data, $request->getPost('id'));
 		$this->Index();
+		// redirect('Docente/Index/');
 	}
 	public function Eliminar($id = null){
 		$model = new ModelDocente();

@@ -22,7 +22,7 @@
   <!-- overlayScrollbars -->
   <link rel="stylesheet" href="<?= base_url() ?>/public/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <!-- Daterange picker -->
-  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  <link rel="stylesheet" href="<?= base_url() ?>/public/plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
   <link rel="stylesheet" href="<?= base_url() ?>/public/plugins/summernote/summernote-bs4.css">
   <!-- Google Font: Source Sans Pro -->
@@ -151,11 +151,11 @@
     $.widget.bridge('uibutton', $.ui.button)
   </script>
   <!-- Bootstrap 4 -->
-  <script src="<?= base_url() ?>/public/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?= base_url() ?>/public/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- ChartJS -->
   <script src="<?= base_url() ?>/public/plugins/chart.js/Chart.min.js"></script>
   <!-- Sparkline -->
-  <script src="<?= base_url() ?>/public/plugins/sparklines/sparkline.js"></script>
+  <!-- <script src="<?= base_url() ?>/public/plugins/sparklines/sparkline.js"></script> -->
   <!-- JQVMap -->
   <script src="<?= base_url() ?>/public/plugins/jqvmap/jquery.vmap.min.js"></script>
   <script src="<?= base_url() ?>/public/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
@@ -179,7 +179,7 @@
   <!-- For Modal -->
   <!-- <script src="<?= base_url() ?>/public/plugins/jquery/jquery.slim.min.js"></script> -->
   <!-- <script src="<?= base_url() ?>/public/plugins/popper/popper.min.js"></script> -->
-  <script src="<?= base_url() ?>/public/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <!-- <script src="<?= base_url() ?>/public/plugins/bootstrap/js/bootstrap.min.js"></script> -->
   <!-- Ajax -->
 
 </body>

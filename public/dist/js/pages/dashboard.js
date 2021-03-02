@@ -88,6 +88,7 @@ $(function () {
     }
   })
 
+  /*
   // Sparkline charts
   var sparkline1 = new Sparkline($("#sparkline-1")[0], {width: 80, height: 50, lineColor: '#92c1dc', endColor: '#ebf4f9'});
   var sparkline2 = new Sparkline($("#sparkline-2")[0], {width: 80, height: 50, lineColor: '#92c1dc', endColor: '#ebf4f9'});
@@ -107,10 +108,10 @@ $(function () {
   $('#chat-box').overlayScrollbars({
     height: '250px'
   })
-
+*/
   /* Chart.js Charts */
   // Sales chart
-  var salesChartCanvas = document.getElementById('revenue-chart-canvas').getContext('2d');
+  /*var salesChartCanvas = document.getElementById('revenue-chart-canvas').getContext('2d');
   //$('#revenue-chart').get(0).getContext('2d');
 
   var salesChartData = {
@@ -236,7 +237,7 @@ $(function () {
         gridLines : {
           display : false,
           color: '#efefef',
-          drawBorder: false,
+          // drawBorder: false,
         }
       }],
       yAxes: [{
@@ -247,7 +248,7 @@ $(function () {
         gridLines : {
           display : true,
           color: '#efefef',
-          drawBorder: false,
+          // drawBorder: false,
         }
       }]
     }
@@ -261,4 +262,5 @@ $(function () {
     }
   )
 
+  */
 })
