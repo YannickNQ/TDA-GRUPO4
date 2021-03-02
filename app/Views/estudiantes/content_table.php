@@ -49,7 +49,7 @@
                 <td><?= $key->estu_ciclo ?></td>
                 <td>
                   <div class="d-flex justify-content-around">
-                    <button type="button" href="<?= base_url() ?>/Estudiante/Editar/<?= $key->estu_id ?>" class="btn btn-warning btn-sm editar" data-toggle="modal" data-target="#Modal<?= $key->estu_id ?>"><i class="fas fa-edit  fa-spin"></i></button>
+                    <button type="button" href="<?= base_url() ?>/Estudiante/Editar/<?= $key->estu_id ?>" class="btn btn-warning btn-sm editar" data-toggle="modal" data-target="#Modal<?= $key->estu_id ?>"><i class="fas fa-edit"></i></button>
                     <div class="modal fade" id="Modal<?= $key->estu_id ?>" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content text-dark">
@@ -70,7 +70,7 @@
                         </div>
                       </div>
                     </div>
-                    <a href="<?= base_url('/EliminarPorId' . '/' . $key->estu_id) ?>" class="btn btn-danger btn-sm"><i class="fas fa-trash-alt  fa-spin"></i></a>
+                    <a href="<?= base_url('/EliminarPorId' . '/' . $key->estu_id) ?>" class="btn btn-danger btn-sm"><i class="fas fa-trash-alt"></i></a>
                   </div>
                 </td>
               </tr>

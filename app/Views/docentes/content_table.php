@@ -57,7 +57,7 @@
                 <td><?= $key->doce_fechaint ?></td>
                 <td>
                   <div class="d-flex justify-content-around">
-                    <button type="button" href="<?= base_url() ?>/Docente/Editar/<?= $key->doce_id ?>" class="btn btn-warning btn-sm editar mr-2" data-toggle="modal" data-target="#Modal<?= $key->doce_id ?>"><i class="fas fa-edit  fa-spin"></i></button>
+                    <button type="button" href="<?= base_url() ?>/Docente/Editar/<?= $key->doce_id ?>" class="btn btn-warning btn-sm editar mr-2" data-toggle="modal" data-target="#Modal<?= $key->doce_id ?>"><i class="fas fa-edit"></i></button>
                     <div class="modal fade" id="Modal<?= $key->doce_id ?>" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content text-dark">
@@ -76,7 +76,7 @@
                         </div>
                       </div>
                     </div>
-                    <a href="<?=base_url('/Docente/Eliminar/'.$key->doce_id)?>" class="btn btn-danger btn-sm"><i class="fas fa-trash-alt  fa-spin"></i></a>
+                    <a href="<?=base_url('/Docente/Eliminar/'.$key->doce_id)?>" class="btn btn-danger btn-sm"><i class="fas fa-trash-alt"></i></a>
                   </div>
                 </td>
               <tr>
