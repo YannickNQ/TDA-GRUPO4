@@ -148,7 +148,7 @@
   <script src="<?= base_url() ?>/public/plugins/jquery-ui/jquery-ui.min.js"></script>
   <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
   <script>
-    $.widget.bridge('uibutton', $.ui.button)
+    $.widget.bridge('uibutton', $.ui.button);
   </script>
   <!-- Bootstrap 4 -->
   <script src="<?= base_url() ?>/public/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -180,8 +180,6 @@
   <!-- <script src="<?= base_url() ?>/public/plugins/jquery/jquery.slim.min.js"></script> -->
   <!-- <script src="<?= base_url() ?>/public/plugins/popper/popper.min.js"></script> -->
   <!-- <script src="<?= base_url() ?>/public/plugins/bootstrap/js/bootstrap.min.js"></script> -->
-  <!-- Ajax -->
-
 </body>
 
 </html>
