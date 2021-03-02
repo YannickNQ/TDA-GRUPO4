@@ -72,7 +72,6 @@
                   </div>
                   <div class="btn btn-danger btn-sm"><i class="fas fa-trash-alt  fa-spin"></i></div>
                 </div>
-<<<<<<< HEAD
                   <a href="<?=base_url('/EliminarPorId'.'/'.$key->estu_id)?>" class="btn btn-danger btn-sm">Delete</a>
               </div>
             </td>
@@ -80,15 +79,7 @@
         <?php endforeach; ?>
       </tbody>
     </table>
-=======
-              </td>
-            </tr>
-          <?php endforeach; ?>
-        </tbody>
-      </table>
     </div>
-    
->>>>>>> fb027e7b7e8c8197a8a63deb89198184b96f49fd
   </div>
 </section>  
   
