@@ -59,8 +59,8 @@
               <td><?= $key->doce_fechaint ?></td>
               <td>
                 <div class="d-flex justify-content-around">
-                  <a id="editar<?= $key->doce_id?>" href="<?= base_url() ?>/Docente/Editar/<?= $key->doce_id ?>" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#Modal<?= $key->doce_id?>"><i class="fas fa-edit"></i></a>
-                  <div class="modal fade" id="Modal<?= $key->doce_id?>" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+                  <a <?= $key->doce_id ?>" href="<?= base_url() ?>/Docente/Editar/<?= $key->doce_id ?>" class="btn btn-warning btn-sm editar" data-toggle="modal" data-target="#Modal<?= $key->doce_id ?>"><i class="fas fa-edit"></i></a>
+                  <div class="modal fade" id="Modal<?= $key->doce_id ?>" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                       <div class="modal-content text-dark">
                         <div class="modal-header">
@@ -78,14 +78,6 @@
                       </div>
                     </div>
                   </div>
-                  <script>
-                    $(function() {
-                      $('#editar<?= $key->doce_id?>').click(function() {
-                        alert("clic");
-                        $('.modal-body').load($(this).attr('href') + " .card");
-                      });
-                    });
-                  </script>
                   <a href="<?= base_url('/Docente/Eliminar/' . $key->doce_id) ?>" class="btn btn-danger btn-sm"><i class="fas fa-trash-alt"></i></a>
                 </div>
               </td>
@@ -96,3 +88,12 @@
     </div>
   </div>
 </div>
+
+<script>
+  window.onload = function() {
+    $('.editar').click(function() {
+      $('.modal-body').load($(this).attr('href') + " .card");
+    });
+    // $('#aea').dataTable();
+  };
+</script>

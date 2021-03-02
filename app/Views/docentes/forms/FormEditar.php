@@ -55,7 +55,6 @@
 						</div>
 					</div>
 				</div>
-
 				<div class="input-group mb-3">
 					<select class="form-control form-select " aria-label=".form-select-sm example" name="grado" value="<?= $datos_doc[0]->doce_grado ?>">
 						<option selected disabled>Grado de Instrucción</option>
