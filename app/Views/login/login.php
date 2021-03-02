@@ -18,7 +18,8 @@
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
-<body class="hold-transition login-page">
+<body class=" hold-transition login-page p-5 text-center bg-image" style="background-image: url('public/img/bg-01.jpg');">
+</div>
 <div class="login-box">
   <div class="login-logo">
     <a href="<?= base_url('Login')?>"><b>Iniciar Sesion</b></a>
