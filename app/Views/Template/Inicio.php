@@ -64,7 +64,7 @@
     <!-- /.navbar -->
 
     <!-- Main Sidebar Container -->
-    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <aside class="main-sidebar sidebar-light-primary elevation-4">
       <!-- Brand Logo -->
       <div class="brand-link" style="cursor:pointer">
         <img src="<?= base_url() ?>/public/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
@@ -89,22 +89,26 @@
             <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
             <li class="nav-item">
-              <a href="<?= base_url('Docente') ?>" class="nav-link">
-                <i class="nav-icon fas fa-th"></i>
-                <p>
-                  Docentes
-                  <span class="right badge badge-danger">New</span>
-                </p>
-              </a>
+              <div class="container-fluid btn btn-outline-dark">
+                <a href="<?= base_url('Docente') ?>" class="nav-link">
+                  <i class="fas fa-chalkboard-teacher mr-3"></i>
+                  <p>
+                    Docentes
+                  </p>
+                </a>
+              </div>
+              
             </li>
             <li class="nav-item">
-              <a href="<?= base_url('Estudiante') ?>" class="nav-link">
-                <i class="nav-icon fas fa-th"></i>
-                <p>
-                  Estudiantes
-                  <span class="right badge badge-danger">New</span>
-                </p>
-              </a>
+              <div class="container-fluid btn btn-outline-dark">
+                <a href="<?= base_url('Estudiante') ?>" class="nav-link">
+                  <i class="fas fa-university mr-3"></i>
+                  <p>
+                    Estudiantes
+                  </p>
+                </a>
+              </div>
+              
             </li>
           </ul>
         </nav>
