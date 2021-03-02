@@ -1,12 +1,11 @@
-<section class="content">
   <div class="container-fluid table-responsive">
     <div class="card">
       <div class="card-header">
         <h3 class="card-title">Lista de los docentes</h3>
       </div>
       <div class="card-body">
-        <table class="table table-hover table-bordered table-striped table-sm shadow">
-          <thead>
+        <table class="table table-hover table-bordered table-sm shadow">
+          <thead class="thead-inverse thead-light">
             <tr>
               <th><i class="fas fa-sort-amount-down"></i></th>
               <th>
@@ -57,13 +56,13 @@
                 <td><?= $key->doce_edad ?></td>
                 <td><?= $key->doce_fechaint ?></td>
                 <td>
-                  <div class="d-flex justify content-around">
+                  <div class="d-flex justify-content-around">
                     <button type="button" href="<?= base_url() ?>/Docente/Editar/<?= $key->doce_id ?>" class="btn btn-warning btn-sm editar mr-2" data-toggle="modal" data-target="#Modal<?= $key->doce_id ?>"><i class="fas fa-edit  fa-spin"></i></button>
                     <div class="modal fade" id="Modal<?= $key->doce_id ?>" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content text-dark">
                           <div class="modal-header">
-                            <h5 class="modal-title" id="ModalLabel">EDITAR DOCENTE <?= $key->doce_id ?></h5>
+                            <h5 class="modal-title" id="ModalLabel">EDITANDO DOCENTE <?= $key->doce_id ?></h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                               <span aria-hidden="true">&times;</span>
                             </button>
@@ -88,7 +87,6 @@
       </div>
     </div>
   </div>
-</section>
 
 <script>
   window.onload = function() {

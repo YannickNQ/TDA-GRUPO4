@@ -8,15 +8,23 @@ class ModelStudent extends Model
 {
   public function GetAllData()
   {
-    $data = $this->db->query("SELECT * FROM estudiantes");
-    return $data->getResult();
+    // $db = \Config\Database::connect();
+    // $builder = $db->table('estudiantes');
+    $builder = $this->db->table('estudiantes');
+    // $data = $this->db->query("SELECT * FROM estudiantes");
+    // return $data->getResult();
+    return $builder->get()->getResult();
   }
   public function GetDataWhere($id)
   {
+    // $builder = $this->db->table('estudiantes');
+    // $builder->where('estu_id',$id);
+    // return $builder->get()->getResult();
+
     $data = $this->db->query("SELECT * FROM estudiantes WHERE estu_id=" . $id);
     return $data->getResult();
   }
-  public function UpdateData($values, $id = 0)
+  public function UpdateData($values, $id = null)
   {
     $builder = $this->db->table('estudiantes');
     $builder->set($values);

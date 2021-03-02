@@ -38,7 +38,6 @@
     <!-- /.login-logo -->
     <div class="card">
       <div class="card-body login-card-body">
-        <p class="login-box-msg">Bienvenido! Edita tus datos</p>
         <form action="<?= base_url('Estudiante/Actualizar') ?>" method="post">
           <div class="input-group mb-3" style="display:none">
             <input type="text" id="nombres" class="form-control" placeholder="ID" name="id" value="<?= $datos_estu[0]->estu_id ?>">

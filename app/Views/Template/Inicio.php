@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title><?=$title?></title>
+  <title><?= $title ?></title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
@@ -91,25 +91,27 @@
                with font-awesome or any other icon font library -->
             <li class="nav-item">
               <div class="container-fluid btn btn-outline-dark">
-                <a href="<?= base_url('Docente') ?>" class="nav-link">
-                  <i class="fas fa-chalkboard-teacher mr-3"></i>
-                  <p>
-                    Docentes
-                  </p>
+                <a href="<?= base_url('Docente') ?>" class="d-flex justify-content-center nav-link">
+                  <div class="d-inline">
+                    <i class="fas fa-chalkboard-teacher mr-3"></i>
+                    <p>
+                      Docentes
+                    </p>
+                  </div>
                 </a>
               </div>
-              
+
             </li>
             <li class="nav-item">
               <div class="container-fluid btn btn-outline-dark">
-                <a href="<?= base_url('Estudiante') ?>" class="nav-link">
+                <a href="<?= base_url('Estudiante') ?>" class="d-flex justify-content-center nav-link">
                   <i class="fas fa-university mr-3"></i>
                   <p>
                     Estudiantes
                   </p>
                 </a>
               </div>
-              
+
             </li>
           </ul>
         </nav>

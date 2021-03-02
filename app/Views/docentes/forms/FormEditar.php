@@ -33,15 +33,15 @@
 <body class="hold-transition login-page">
 	<div class="login-box mr-auto ml-auto">
 		<div class="login-logo">
-			<h2><b>Registrar Docente</b></h2>
+			<h2><b>Editar Docente</b></h2>
 		</div>
 		<!-- /.login-logo -->
 		<div class="card">
 			<div class="card-body login-card-body">
-				<p class="login-box-msg">Bienvenido! Edita tus datos</p>
+				<!-- <p class="login-box-msg h4">Bienvenido! Edita tus datos</p> -->
 				<form action="<?= base_url('Docente/Actualizar') ?>" method="post">
-					<div class="input-group mb-3">
-						<input type="text" id="nombres" class="form-control " placeholder="Nombres" name="nombres" value="<?= $datos_doc[0]->doce_id ?>">
+					<div class="input-group mb-3" style="display:none">
+						<input type="text" id="id" class="form-control " placeholder="id" name="id" value="<?= $datos_doc[0]->doce_id ?>">
 						<div class="input-group-append">
 							<div class="input-group-text bg-dark ">
 								<span class="fas fa-address-book "></span>
@@ -118,7 +118,7 @@
 						</div>
 					</div>
 					<div class="d-flex justify-content-center col-12">
-						<button type="submit" class="col-6 btn btn-outline-dark btn-sm btn-block">Registrar</button>
+						<button type="submit" class="col-6 btn btn-outline-dark btn-sm btn-block">Enviar</button>
 					</div>
 				</form>
 			</div>

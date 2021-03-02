@@ -4,7 +4,6 @@ namespace App\Controllers;
 
 use App\Models\ModelStudent;
 use CodeIgniter\Controller;
-
 class Estudiante extends BaseController
 {
 	public function index()
@@ -26,15 +25,15 @@ class Estudiante extends BaseController
 	}
 	public function FormRegistrar()
 	{
-		if (!isset($_POST['nombres'])) {
-			echo "<h3>REDIRECCIONANDO...</h3>";
-			echo '<script> window.location.replace("' . base_url() . '/Estudiante' . '"); </script>';
-		}
 		$model = new ModelStudent();
 		echo view('estudiantes/forms/FormRegistrar');
 	}
 	public function Registrando()
 	{
+		if (!isset($_POST['nombres'])) {
+			echo "<h3>REDIRECCIONANDO...</h3>";
+			echo '<script> window.location.replace("' . base_url() . '/Estudiante' . '"); </script>';
+		}
 	}
 	public function Actualizar()
 	{
