@@ -830,7 +830,7 @@
       <!-- /.sidebar -->
     </aside>
     <!-- ./wrapper -->
-    <div class="content-warpper">
+    <div class="content-wrapper">
       <?= $this->renderSection('content') ?>
     </div>
     <!-- Main Footer -->
