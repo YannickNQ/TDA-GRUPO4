@@ -88,7 +88,6 @@
       </div>
     </div>
   </div>
-
   <script>
     window.onload = function() {
       $('.editar').click(function() {
