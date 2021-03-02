@@ -1,10 +1,12 @@
+<style link="http://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css"></style>
+<style link="http://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></style>
   <div class="container-fluid table-responsive">
     <div class="card">
       <div class="card-header">
         <h3 class="card-title">Lista de los docentes</h3>
       </div>
       <div class="card-body">
-        <table class="table table-hover table-bordered table-sm shadow">
+        <table id="#aea" class="table table-hover table-bordered table-sm shadow">
           <thead class="thead-inverse thead-light">
             <tr>
               <th><i class="fas fa-sort-amount-down"></i></th>
@@ -57,7 +59,7 @@
                 <td><?= $key->doce_fechaint ?></td>
                 <td>
                   <div class="d-flex justify-content-around">
-                    <button type="button" href="<?= base_url() ?>/Docente/Editar/<?= $key->doce_id ?>" class="btn btn-warning btn-sm editar mr-2" data-toggle="modal" data-target="#Modal<?= $key->doce_id ?>"><i class="fas fa-edit  fa-spin"></i></button>
+                    <button type="button" href="<?= base_url() ?>/Docente/Editar/<?= $key->doce_id ?>" class="btn btn-warning btn-sm editar mr-2" data-toggle="modal" data-target="#Modal<?= $key->doce_id ?>"><i class="fas fa-edit"></i></button>
                     <div class="modal fade" id="Modal<?= $key->doce_id ?>" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content text-dark">
@@ -76,7 +78,7 @@
                         </div>
                       </div>
                     </div>
-                    <a href="<?=base_url('/Docente/Eliminar/'.$key->doce_id)?>" class="btn btn-danger btn-sm"><i class="fas fa-trash-alt  fa-spin"></i></a>
+                    <a href="<?= base_url('/Docente/Eliminar/' . $key->doce_id) ?>" class="btn btn-danger btn-sm"><i class="fas fa-trash-alt"></i></a>
                   </div>
                 </td>
               <tr>
@@ -87,10 +89,11 @@
     </div>
   </div>
 
-<script>
-  window.onload = function() {
-    $('.editar').click(function() {
-      $('.modal-body').load($(this).attr('href') + "  .login-card-body");
-    })
-  }
-</script>
+  <script>
+    window.onload = function() {
+      $('.editar').click(function() {
+        $('.modal-body').load($(this).attr('href') + " card");
+      });
+      // $('#aea').dataTable();
+    };
+  </script>

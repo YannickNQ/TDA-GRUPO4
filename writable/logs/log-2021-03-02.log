@@ -91,3 +91,80 @@ CRITICAL - 2021-03-02 04:03:51 --> Undefined property: App\Controllers\Docente::
 CRITICAL - 2021-03-02 04:31:51 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
 #0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
 #1 {main}
+CRITICAL - 2021-03-02 06:33:55 --> Undefined property: stdClass::$doce_nombres
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Views\docentes\forms\FormEditar.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('docentes/forms/...', Array, true)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(27): view('docentes/forms/...', Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Editar('6')
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-02 06:33:58 --> Undefined property: stdClass::$doce_nombres
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Views\docentes\forms\FormEditar.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('docentes/forms/...', Array, true)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(27): view('docentes/forms/...', Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Editar('6')
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-02 06:34:05 --> Undefined property: stdClass::$doce_nombres
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Views\docentes\forms\FormEditar.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('docentes/forms/...', Array, true)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(27): view('docentes/forms/...', Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Editar('6')
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-02 06:36:23 --> Undefined property: stdClass::$doce_nombres
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Views\docentes\forms\FormEditar.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('docentes/forms/...', Array, true)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(27): view('docentes/forms/...', Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Editar('2')
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-02 06:36:40 --> Undefined property: stdClass::$doce_nombres
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Views\docentes\forms\FormEditar.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('docentes/forms/...', Array, true)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(27): view('docentes/forms/...', Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Editar('2')
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-02 06:37:20 --> Undefined property: stdClass::$doce_nombres
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Views\docentes\forms\FormEditar.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('docentes/forms/...', Array, true)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(28): view('docentes/forms/...', Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Editar('2')
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-02 06:37:47 --> Undefined property: stdClass::$doce_nombres
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Views\docentes\forms\FormEditar.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('docentes/forms/...', Array, true)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(28): view('docentes/forms/...', Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Editar('2')
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -48,7 +48,7 @@ class Docente extends BaseController
 			"doce_nombre" => $request->getPost('nombres'),
 			'doce_apellidos' => $request->getPost('apellidos'),
 			'doce_dni' => $request->getPost('dni'),
-			'doce_correo' => $request->getPost('mail'),
+			'doce_correo' => $request->getPost('correo'),
 			'doce_telf' => $request->getPost('telef'),
 			'doce_grado' => $request->getPost('grado'),
 			'doce_titulo' => $request->getPost('titulo'),
@@ -58,7 +58,7 @@ class Docente extends BaseController
 		// print_r($data);
 		$model = new ModelDocente();
 		$model->InsertData($data);
-		$this->Index();
+		echo '<script> window.location.replace("' . base_url() . '/Docente' . '"); </script>';
 	}
 	public function Actualizar()
 	{
