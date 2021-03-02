@@ -34,24 +34,24 @@
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
 				<form class="login100-form validate-form">
 					<span class="login100-form-title p-b-49">
-						Login
+						Ingrese sus Datos
 					</span>
 
 					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is reauired">
-						<span class="label-input100">Username</span>
-						<input class="input100" type="text" name="username" placeholder="Type your username">
+						<span class="label-input100">Email</span>
+						<input class="input100" type="text" name="username" placeholder="ingrese su email">
 						<span class="focus-input100" data-symbol="&#xf206;"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Password is required">
-						<span class="label-input100">Password</span>
-						<input class="input100" type="password" name="pass" placeholder="Type your password">
+						<span class="label-input100">Contraseña</span>
+						<input class="input100" type="password" name="pass" placeholder="ingrese su contraseña">
 						<span class="focus-input100" data-symbol="&#xf190;"></span>
 					</div>
 					
 					<div class="text-right p-t-8 p-b-31">
 						<a href="#">
-							Forgot password?
+							¿se olvido su contraseña?
 						</a>
 					</div>
 					
@@ -66,7 +66,7 @@
 
 					<div class="txt1 text-center p-t-54 p-b-20">
 						<span>
-							Or Sign Up Using
+							Puedes registrarte con
 						</span>
 					</div>
 
@@ -86,11 +86,11 @@
 
 					<div class="flex-col-c p-t-155">
 						<span class="txt1 p-b-17">
-							Or Sign Up Using
+							Registrate aqui
 						</span>
 
 						<a href="#" class="txt2">
-							Sign Up
+							Registrar
 						</a>
 					</div>
 				</form>
