@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\ModelDocente;
+use CodeIgniter\Config\View;
 
 class Docente extends BaseController
 {
@@ -11,7 +12,9 @@ class Docente extends BaseController
 		$model = new ModelDocente();
 		$data = [
 			'datos_doc' => $model->GetAllData(),
-			'title' => "Docentes"
+			'title' => "Docentes",
+			'content' => "content_table",
+			'registrarDoc' => true,
 		];
 		echo view('docentes/general', $data);
 	}
@@ -26,7 +29,13 @@ class Docente extends BaseController
 	public function FormRegistrar()
 	{
 		$model = new ModelDocente();
-		echo view('docentes/forms/FormRegistrar');
+		$data = [
+			'title' => "Registrar Datos",
+			'content' => "forms/FormRegistrar",
+			'registrarDoc' => false,
+		];
+		echo view('docentes/general', $data);
+		// echo view('docentes/forms/FormRegistrar');
 	}
 	public function Registrar()
 	{

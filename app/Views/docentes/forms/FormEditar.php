@@ -80,18 +80,19 @@
 							</div>
 						</div>
 					</div>
+
 					<div class="input-group mb-3">
-						<select class="form-select " aria-label=".form-select-sm example" value="<?= $datos_doc[0]->doce_grado ?>">
-							<option selected>Grado de Instrucción</option>
+						<select class="form-control form-select " aria-label=".form-select-sm example" value="<?= $datos_doc[0]->doce_grado ?>">
+							<option selected disabled>Grado de Instrucción</option>
 							<option value="Magister">Magister</option>
 							<option value="Bachiller">Bachiller</option>
 							<option value="Licenciado">Licenciado/a</option>
 						</select>
 						<div class="input-group-append">
-							<div class="input-group-text bg-dark">
-								<span class="fas fa-university"></span>
-							</div>
-						</div>
+              <div class="input-group-text bg-dark">
+                <span class="fas fa-university"></span>
+              </div>
+            </div>
 					</div>
 					<div class="input-group mb-3">
 						<input type="text" id="titulo" class="form-control " placeholder="Titulo" name="titulo" value="<?= $datos_doc[0]->doce_titulo ?>">
