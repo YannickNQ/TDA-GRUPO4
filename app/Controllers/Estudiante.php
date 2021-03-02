@@ -6,7 +6,7 @@ use App\Models\ModelStudent;
 use CodeIgniter\Controller;
 class Estudiante extends BaseController
 {
-	public function index()
+	public function Index()
 	{
 		$model = new ModelStudent();
 		$data = [
@@ -28,39 +28,51 @@ class Estudiante extends BaseController
 		$model = new ModelStudent();
 		echo view('estudiantes/forms/FormRegistrar');
 	}
-	public function Registrando()
+	public function Registrar()	
 	{
-		if (!isset($_POST['nombres'])) {
+		$request = \Config\Services::request();
+		if (!$request->getPost('nombres')) {
 			echo "<h3>REDIRECCIONANDO...</h3>";
 			echo '<script> window.location.replace("' . base_url() . '/Estudiante' . '"); </script>';
 		}
+		$data = array(
+			'estu_nombres' => $request->getPost('nombres'),
+			'estu_apellidos' => $request->getPost('apellidos'),
+			'estu_edad' => $request->getPost('edad'),
+			'estu_correo' => $request->getPost('correo'),
+			'estu_carrera' => $request->getPost('carrera'),
+			'estu_codigo' => $request->getPost('codigo'),
+			'estu_telf' => $request->getPost('telefono'),
+			'estu_ciclo' => $request->getPost('ciclo'),
+		);
 	}
 	public function Actualizar()
 	{
-		if (!isset($_POST['nombres'])) {
+		$request = \Config\Services::request();
+		if (!$request->getPost('nombres')) {
 			echo "<h3>REDIRECCIONANDO...</h3>";
 			echo '<script> window.location.replace("' . base_url() . '/Estudiante' . '"); </script>';
 		}
-		$model = new ModelStudent();
 		$data = array(
-			'estu_nombres' => $_POST['nombres'],
-			'estu_apellidos' => $_POST['apellidos'],
-			'estu_edad' => $_POST['edad'],
-			'estu_correo' => $_POST['correo'],
-			'estu_carrera' => $_POST['carrera'],
-			'estu_codigo' => $_POST['codigo'],
-			'estu_telf' => $_POST['telefono'],
-			'estu_ciclo' => $_POST['ciclo'],
+			'estu_nombres' => $request->getPost('nombres'),
+			'estu_apellidos' => $request->getPost('apellidos'),
+			'estu_edad' => $request->getPost('edad'),
+			'estu_correo' => $request->getPost('correo'),
+			'estu_carrera' => $request->getPost('carrera'),
+			'estu_codigo' => $request->getPost('codigo'),
+			'estu_telf' => $request->getPost('telefono'),
+			'estu_ciclo' => $request->getPost('ciclo'),
 		);
-		$model->UpdateData($data, $_POST['id']);
-		$this->index();
-	}
-	public function EliminarPorId($id)
-	{
-		// $this->index();
 		$model = new ModelStudent();
-		echo $model->DeleteData($id);
+		$model->UpdateData($data, $request->getPost('id'));
+		$this->Index();
+	}
+	public function Eliminar($id = null)
+	{
+		// $this->Index();
+		$model = new ModelStudent();
+		$model->DeleteDataById($id);
 		// echo "Deleting estu_id = $id...";
-		$this->index();
+		$this->Index();
 	}
 }

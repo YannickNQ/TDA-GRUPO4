@@ -24,18 +24,24 @@ class ModelDocente extends Model
     $data = $this->db->query("SELECT * FROM docentes WHERE doce_id=" . $id);
     return $data->getResult();
   }
+  public function InsertData($values)
+  {
+    // $db      = \Config\Database::connect();
+    $builder = $this->db->table('docentes');
+    $builder->insert($values);
+  }
   public function UpdateData($values, $id = null)
   {
     // if ($id != null) {
     $builder = $this->db->table('docentes');
     $builder->set($values);
     $builder->where('doce_id', $id);
-    $builder->update($values,);
+    return $builder->update();
     // $builder->update($values, array('doce_id' => $id));
     // $builder->insert($values);
     // }
   }
-  public function DeleteDataBy($id)
+  public function DeleteDataById($id)
   {
     $builder = $this->db->table('docentes');
     $builder->where('doce_id', $id);

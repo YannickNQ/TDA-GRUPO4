@@ -81,3 +81,13 @@ CRITICAL - 2021-03-02 03:36:23 --> Array to string conversion
 #3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
 #5 {main}
+CRITICAL - 2021-03-02 04:03:51 --> Undefined property: App\Controllers\Docente::$load
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Registrar()
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-02 04:31:51 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

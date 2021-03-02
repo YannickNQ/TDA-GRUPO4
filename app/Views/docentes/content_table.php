@@ -77,7 +77,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="btn btn-danger btn-sm"><i class="fas fa-trash-alt  fa-spin"></i></div>
+                    <a href="<?=base_url('/Docente/Eliminar/'.$key->doce_id)?>" class="btn btn-danger btn-sm"><i class="fas fa-trash-alt  fa-spin"></i></a>
                   </div>
                 </td>
               <tr>

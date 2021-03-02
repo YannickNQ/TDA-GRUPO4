@@ -6,7 +6,7 @@ use App\Models\ModelDocente;
 
 class Docente extends BaseController
 {
-	public function index()
+	public function Index()
 	{
 		$model = new ModelDocente();
 		$data = [
@@ -25,26 +25,57 @@ class Docente extends BaseController
 	}
 	public function FormRegistrar()
 	{
+		$model = new ModelDocente();
 		echo view('docentes/forms/FormRegistrar');
 	}
-	public function Registrando()
+	public function Registrar()
 	{
+		$request = \Config\Services::request();
+		if(!$request->getPost('nombres')){
+			echo "<h3>REDIRECCIONANDO...</h3>";
+			echo '<script> window.location.replace("' . base_url() . '/Docente' . '"); </script>';
+		}
 		$data = array(
-			"nombres" => $this->load->post('nombres'),
-			'apellidos' => $this->load->post('apellidos'),
-			'dni' => $this->load->post('dni'),
-			'mail' => $this->load->post('mail'),
-			'telef' => $this->load->post('telef'),
-			'grado' => $this->load->post('grado'),
-			'titulo' => $this->load->post('titulo'),
-			'nacionalidad' => $this->load->post('nacionalidad'),
-			'edad' => $this->load->post('edad'),
+			"doce_nombre" => $request->getPost('nombres'),
+			'doce_apellidos' => $request->getPost('apellidos'),
+			'doce_dni' => $request->getPost('dni'),
+			'doce_correo' => $request->getPost('mail'),
+			'doce_telf' => $request->getPost('telef'),
+			'doce_grado' => $request->getPost('grado'),
+			'doce_titulo' => $request->getPost('titulo'),
+			'doce_nacion' => $request->getPost('nacionalidad'),
+			'doce_edad' => $request->getPost('edad'),
 		);
-		print_r($data);
-		// $model = new ModelDocente();
-		// }
+		// print_r($data);
+		$model = new ModelDocente();
+		$model->InsertData($data);
+		$this->Index();
 	}
 	public function Actualizar()
 	{
+		$request = \Config\Services::request();
+		if(!$request->getPost('nombres')){
+			echo "<h3>REDIRECCIONANDO...</h3>";
+			echo '<script> window.location.replace("' . base_url() . '/Docente' . '"); </script>';
+		}
+		$data = array(
+			"doce_nombre" => $request->getPost('nombres'),
+			'doce_apellidos' => $request->getPost('apellidos'),
+			'doce_dni' => $request->getPost('dni'),
+			'doce_correo' => $request->getPost('mail'),
+			'doce_telf' => $request->getPost('telef'),
+			'doce_grado' => $request->getPost('grado'),
+			'doce_titulo' => $request->getPost('titulo'),
+			'doce_nacion' => $request->getPost('nacionalidad'),
+			'doce_edad' => $request->getPost('edad'),
+		);
+		$model = new ModelDocente();
+		$model->UpdateData($data, $request->getPost('id'));
+		$this->Index();
+	}
+	public function Eliminar($id = null){
+		$model = new ModelDocente();
+		$model->DeleteDataById($id);
+		$this->Index();
 	}
 }

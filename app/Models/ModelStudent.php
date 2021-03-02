@@ -24,16 +24,19 @@ class ModelStudent extends Model
     $data = $this->db->query("SELECT * FROM estudiantes WHERE estu_id=" . $id);
     return $data->getResult();
   }
+  public function InsertData($values){
+
+  }
   public function UpdateData($values, $id = null)
   {
     $builder = $this->db->table('estudiantes');
     $builder->set($values);
     $builder->where('estu_id', $id);
-    $builder->update($values);
+    $builder->update();
     // $builder->update($values, array('estu_id' => $id));
     // $builder->insert($values);
   }
-  public function DeleteDataBy($id)
+  public function DeleteDataById($id)
   {
     $builder = $this->db->table('estudiantes');
     $builder->where('estu_id', $id);
