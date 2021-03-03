@@ -7,13 +7,16 @@
   <title><?= $title ?></title>
 
   <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"> -->
+  <link rel="stylesheet" href="<?= base_url('/public/assets/template_extras/css/font_sansPro.css') ?>">
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="<?= base_url() ?>/public/plugins/fontawesome-free/css/all.min.css">
   <!-- IonIcons -->
-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"> -->
+  <link rel="stylesheet" href="<?= base_url('/public/assets/template_extras/css/ionicons.min.css') ?>">
   <!-- Theme style -->
   <link rel="stylesheet" href="<?= base_url() ?>/public/dist/css/adminlte.min.css">
+
 </head>
 <!--
 `body` tag options:
@@ -34,16 +37,16 @@
         <li class="nav-item">
           <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
-        <li class="nav-item d-none d-sm-inline-block">
+        <!-- <li class="nav-item d-none d-sm-inline-block">
           <a href="index3.html" class="nav-link">Home</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
           <a href="#" class="nav-link">Contact</a>
-        </li>
+        </li> -->
       </ul>
 
       <!-- SEARCH FORM -->
-      <form class="form-inline ml-3">
+      <!-- <form class="form-inline ml-3">
         <div class="input-group input-group-sm">
           <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
           <div class="input-group-append">
@@ -52,19 +55,17 @@
             </button>
           </div>
         </div>
-      </form>
+      </form> -->
 
       <!-- Right navbar links -->
       <ul class="navbar-nav ml-auto">
-        <!-- Messages Dropdown Menu -->
-        <li class="nav-item dropdown">
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link" data-toggle="dropdown" href="#">
             <i class="far fa-comments"></i>
             <span class="badge badge-danger navbar-badge">3</span>
           </a>
           <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
             <a href="#" class="dropdown-item">
-              <!-- Message Start -->
               <div class="media">
                 <img src="<?= base_url() ?>/public/dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
                 <div class="media-body">
@@ -76,11 +77,9 @@
                   <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
                 </div>
               </div>
-              <!-- Message End -->
             </a>
             <div class="dropdown-divider"></div>
             <a href="#" class="dropdown-item">
-              <!-- Message Start -->
               <div class="media">
                 <img src="<?= base_url() ?>/public/dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
                 <div class="media-body">
@@ -92,11 +91,9 @@
                   <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
                 </div>
               </div>
-              <!-- Message End -->
             </a>
             <div class="dropdown-divider"></div>
             <a href="#" class="dropdown-item">
-              <!-- Message Start -->
               <div class="media">
                 <img src="<?= base_url() ?>/public/dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
                 <div class="media-body">
@@ -108,14 +105,16 @@
                   <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
                 </div>
               </div>
-              <!-- Message End -->
             </a>
             <div class="dropdown-divider"></div>
             <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
           </div>
+        </li> -->
+        <li class="nav-item">
+        <button class="btn btn-danger">Cerrar Sesion</button>
         </li>
         <!-- Notifications Dropdown Menu -->
-        <li class="nav-item dropdown">
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link" data-toggle="dropdown" href="#">
             <i class="far fa-bell"></i>
             <span class="badge badge-warning navbar-badge">15</span>
@@ -145,7 +144,7 @@
           <a class="nav-link" data-widget="fullscreen" href="#" role="button">
             <i class="fas fa-expand-arrows-alt"></i>
           </a>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
             <i class="fas fa-th-large"></i>
@@ -158,9 +157,9 @@
     <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <!-- Brand Logo -->
-      <a href="index3.html" class="brand-link">
+      <a href="#" class="brand-link">
         <img src="<?= base_url() ?>/public/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">AdminLTE 3</span>
+        <span class="brand-text font-weight-light">TDA GRUPO - 04</span>
       </a>
 
       <!-- Sidebar -->
@@ -176,7 +175,7 @@
         </div>
 
         <!-- SidebarSearch Form -->
-        <div class="form-inline">
+        <!-- <div class="form-inline">
           <div class="input-group" data-widget="sidebar-search">
             <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
             <div class="input-group-append">
@@ -185,42 +184,86 @@
               </button>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- Sidebar Menu -->
         <nav class="mt-2">
-          <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <ul class="nav nav-pills nav-sidebar flex-column nav-child-indent nav-collapse-hide-child" data-widget="treeview" role="menu" data-accordion="false">
             <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-            <li class="nav-item menu-open">
-              <a href="#" class="nav-link active">
+            <!-- Docentes -->
+            <!-- <div class="nav-header">UNIVERSIDAD</div> -->
+            <li class="nav-item <?= ($title == "Docentes")?"menu-open":"" ?>" title="docente">
+              <!-- <a href="<?= base_url('/Docente') ?>" class="nav-link"> -->
+              <a href="<?= base_url('/Docente') ?>" class='nav-link <?= ($title == "Docentes")?"active":"" ?>'>
                 <i class="nav-icon fas fa-tachometer-alt"></i>
                 <p>
-                  Dashboard
+                  Docentes
                   <i class="right fas fa-angle-left"></i>
                 </p>
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="./index.html" class="nav-link">
+                  <a href="<?= base_url('/Docente/SimpleTable') ?>" class="nav-link <?= ($subtitle == "SimpleTable" && $title == "Docentes")?"active":"" ?>">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Dashboard v1</p>
+                    <p>Tabla Simple</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="./index2.html" class="nav-link">
+                  <a href="<?= base_url('/Docente/DataTable') ?>" class="nav-link <?= ($subtitle == "DataTable" && $title == "Docentes")?"active":"" ?>">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Dashboard v2</p>
+                    <p>Data Table</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="./index3.html" class="nav-link active">
+                  <a href="<?= base_url('/Docente/Select2') ?>" class="nav-link <?= ($subtitle == "Select2" && $title == "Docentes")?"active":"" ?>">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Dashboard v3</p>
+                    <p>Select 2</p>
                   </a>
                 </li>
               </ul>
             </li>
+            <!-- /. Docentes -->
+            <!-- Estudiantes -->
+            <li class="nav-item <?= ($title == "Estudiantes")?"menu-open":"" ?>" title="estudiante">
+              <a href="<?=base_url()?>/Estudiante" class="nav-link <?= ($title == "Estudiantes")?"active":"" ?>">
+                <i class="nav-icon fas fa-table"></i>
+                <p>Estudiantes<i class="fas fa-angle-left right"></i></p>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="<?=base_url()?>/Estudiante/SimpleTable" class="nav-link <?= ($subtitle == "SimpleTable" && $title == "Estudiantes")?"active":"" ?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Tabla Simple</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="<?=base_url()?>/Estudiante/DataTable" class="nav-link <?= ($subtitle == "DataTable" && $title == "Estudiantes")?"active":"" ?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>DataTables</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="<?=base_url()?>/Estudiante/Select2" class="nav-link <?= ($subtitle == "Select2" && $title == "Estudiantes")?"active":"" ?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Select 2</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <!-- /. Estudiantes -->
+            <!-- Users -->
+            <li class="nav-header">USUARIOS</li>
+            <li class="nav-item">
+              <a href="<?=base_url('/Usuario/Index')?>" class="nav-link <?= ($title == "Usuarios")?"active":"" ?>">
+                <i class="nav-icon fas fa-user-alt"></i>
+                <p>
+                  Ver Usuarios
+                  <span class="badge badge-info right"><?= (isset($cant)) ? $cant : 0 ?></span>
+                </p>
+              </a>
+            </li>
+          <!--             
             <li class="nav-item">
               <a href="pages/widgets.html" class="nav-link">
                 <i class="nav-icon fas fa-th"></i>
@@ -822,7 +865,8 @@
                 <i class="nav-icon far fa-circle text-info"></i>
                 <p>Informational</p>
               </a>
-            </li>
+            </li> -->
+          <!-- /.nav-item -->
           </ul>
         </nav>
         <!-- /.sidebar-menu -->
@@ -843,7 +887,7 @@
     </footer>
   </div>
   <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
+  <aside class="control-sidebar control-sidebar-light">
     <!-- Control sidebar content goes here -->
   </aside>
   <!-- /.control-sidebar -->
@@ -863,6 +907,11 @@
   <script src="<?= base_url() ?>/public/dist/js/demo.js"></script>
   <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
   <script src="<?= base_url() ?>/public/dist/js/pages/dashboard3.js"></script>
+
+  <!-- Nuestros Scripts -->
+  <script src="<?= base_url() ?>/public/assets/my_scripts/for_tables.js"></script>
+  <script src="<?= base_url() ?>/public/assets/my_scripts/sidebar_template.js"></script>
+
 </body>
 
 </html>

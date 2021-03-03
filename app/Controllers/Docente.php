@@ -13,10 +13,46 @@ class Docente extends BaseController
 		$data = [
 			'datos_doc' => $model->GetAllData(),
 			'title' => "Docentes",
+			'subtitle' => "SimpleTable",
 			'content' => "content_table",
 			'registrarDoc' => true,
 		];
 		echo view('docentes/general', $data);
+	}
+	public function SimpleTable()
+	{
+		$this->Index();
+	}
+	public function DataTable()
+	{
+		$data = [
+			'title' => "Docentes",
+			'subtitle' => "DataTable",
+			'content' => "content_datatable",
+			'registrarDoc' => true,
+		];
+		echo view('docentes/general', $data);
+	}
+	public function Select2()
+	{
+		$data = [
+			'title' => "Docentes",
+			'subtitle' => "Select2",
+			'content' => "content_select2",
+			'registrarDoc' => true,
+		];
+		echo view('docentes/general', $data);
+	}
+	public function FormRegistrar()
+	{
+		$data = [
+			'title' => "Docente",
+			'content' => "forms/FormRegistrar",
+			'registrarDoc' => false,
+		];
+		echo view('docentes/general', $data);
+		// redirect('mainController/Student_Login/');
+		// echo view('docentes/forms/FormRegistrar');
 	}
 	public function Editar($id)
 	{
@@ -25,17 +61,6 @@ class Docente extends BaseController
 			'datos_doc' => $model->GetDataWhere($id),
 		];
 		echo view('docentes/forms/FormEditar', $data);
-	}
-	public function FormRegistrar()
-	{
-		$data = [
-			'title' => "Registrar Datos",
-			'content' => "forms/FormRegistrar",
-			'registrarDoc' => false,
-		];
-		echo view('docentes/general', $data);
-		// redirect('mainController/Student_Login/');
-		// echo view('docentes/forms/FormRegistrar');
 	}
 	public function Registrar()
 	{

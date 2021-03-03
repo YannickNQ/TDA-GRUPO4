@@ -12,7 +12,32 @@ class Estudiante extends BaseController
 		$data = [
 			'datos_est' => $model->GetAllData(),
 			'title' => "Estudiantes",
+			'subtitle' => "SimpleTable",
 			'content' => 'content_table',
+			'registrarEst' => true,
+		];
+		echo view('estudiantes/general', $data);
+	}
+	public function SimpleTable()
+	{
+		$this->Index();
+	}
+	public function DataTable()
+	{
+		$data = [
+			'title' => "Estudiantes",
+			'subtitle' => "DataTable",
+			'content' => "content_datatable",
+			'registrarEst' => true,
+		];
+		echo view('estudiantes/general', $data);
+	}
+	public function Select2()
+	{
+		$data = [
+			'title' => "Estudiantes",
+			'subtitle' => "Select2",
+			'content' => "content_select2",
 			'registrarEst' => true,
 		];
 		echo view('estudiantes/general', $data);
@@ -28,7 +53,7 @@ class Estudiante extends BaseController
 	public function FormRegistrar()
 	{
 		$data = [
-			'title' => 'Registrar Datos',
+			'title' => 'Estudiante',
 			'content' => 'forms/FormRegistrar',
 			'registrarEst' => false,
 		];

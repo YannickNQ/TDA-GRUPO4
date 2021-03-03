@@ -4,13 +4,13 @@ namespace App\Controllers;
 
 class Login extends BaseController
 {
-	public function index()
+	public function Index()
 	{
 		echo view('login/login');
 	}
 
 	public function Registrar()
 	{
-		echo view('login/Registrar');
+		echo view('login/registrar_user');
 	}
 }

@@ -6,9 +6,8 @@
   <div class="container-fluid">
     <div class="row mb-2">
       <div class="col-sm-6">
-        <h1 class="m-0 text-dark"><?=$title?></h1>
+        <h1 class="m-0"><?=$title?></h1>
       </div>
-      <!-- /.col -->
       <?php if($registrarDoc):?>
       <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
@@ -16,7 +15,6 @@
         </ol>
       </div>
       <?php endif;?>
-      <!-- /.col -->
     </div><!-- /.row -->
   </div><!-- /.container-fluid -->
 </div>
