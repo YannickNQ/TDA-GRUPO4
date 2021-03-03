@@ -196,7 +196,7 @@
             <li class="nav-item <?= ($title == "Docentes")?"menu-open":"" ?>" title="docente">
               <!-- <a href="<?= base_url('/Docente') ?>" class="nav-link"> -->
               <a href="<?= base_url('/Docente') ?>" class='nav-link <?= ($title == "Docentes")?"active":"" ?>'>
-                <i class="nav-icon fas fa-tachometer-alt"></i>
+                <i class="nav-icon fas fa-chalkboard-teacher"></i>
                 <p>
                   Docentes
                   <i class="right fas fa-angle-left"></i>
@@ -227,7 +227,7 @@
             <!-- Estudiantes -->
             <li class="nav-item <?= ($title == "Estudiantes")?"menu-open":"" ?>" title="estudiante">
               <a href="<?=base_url()?>/Estudiante" class="nav-link <?= ($title == "Estudiantes")?"active":"" ?>">
-                <i class="nav-icon fas fa-table"></i>
+                <i class="nav-icon fas fa-user-graduate"></i>
                 <p>Estudiantes<i class="fas fa-angle-left right"></i></p>
               </a>
               <ul class="nav nav-treeview">
