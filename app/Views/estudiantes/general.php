@@ -20,6 +20,6 @@
 </div>
 <!-- /.content-header -->
 <div class="content">
-  <?= $this->include('estudiantes/content_table') ?>
+  <?= $this->include('estudiantes/'.$content) ?>
 </div>
 <?= $this->endSection() ?>

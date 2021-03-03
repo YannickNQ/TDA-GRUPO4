@@ -290,6 +290,7 @@ CRITICAL - 2021-03-02 16:58:06 --> Undefined variable: datos_est
 #11 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #12 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
 #13 {main}
+<<<<<<< HEAD
 CRITICAL - 2021-03-02 17:52:08 --> Undefined property: stdClass::$nacimiento
 #0 E:\PROGRAMAS\XAMPP\htdocs\TDA-GRUPO4\app\Views\estudiantes\content_table.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\PROGRAMAS\\XA...', 53, Array)
 #1 E:\PROGRAMAS\XAMPP\htdocs\TDA-GRUPO4\system\View\View.php(220): include('E:\\PROGRAMAS\\XA...')
@@ -319,4 +320,80 @@ CRITICAL - 2021-03-02 18:00:15 --> Undefined property: stdClass::$nacimiento
 #10 E:\PROGRAMAS\XAMPP\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
 #11 E:\PROGRAMAS\XAMPP\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #12 E:\PROGRAMAS\XAMPP\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+=======
+CRITICAL - 2021-03-02 17:49:26 --> Undefined variable: datos_est
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Views\estudiantes\content_table.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(468): CodeIgniter\View\View->render('estudiantes/con...', NULL, true)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Views\estudiantes\general.php(23): CodeIgniter\View\View->include('estudiantes/con...')
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('estudiantes/gen...', Array, true)
+#8 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(35): view('estudiantes/gen...', Array)
+#9 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->FormRegistrar()
+#10 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#11 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-03-02 17:49:39 --> Undefined variable: datos_est
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Views\estudiantes\content_table.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(468): CodeIgniter\View\View->render('estudiantes/con...', NULL, true)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Views\estudiantes\general.php(23): CodeIgniter\View\View->include('estudiantes/con...')
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('estudiantes/gen...', Array, true)
+#8 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(35): view('estudiantes/gen...', Array)
+#9 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->FormRegistrar()
+#10 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#11 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-03-02 17:50:02 --> Undefined variable: datos_est
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Views\estudiantes\content_table.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(468): CodeIgniter\View\View->render('estudiantes/con...', NULL, true)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Views\estudiantes\general.php(23): CodeIgniter\View\View->include('estudiantes/con...')
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('estudiantes/gen...', Array, true)
+#8 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(35): view('estudiantes/gen...', Array)
+#9 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->FormRegistrar()
+#10 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#11 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-03-02 17:52:24 --> Undefined variable: datos_est
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Views\estudiantes\content_table.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(468): CodeIgniter\View\View->render('estudiantes/con...', NULL, true)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Views\estudiantes\general.php(23): CodeIgniter\View\View->include('estudiantes/con...')
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('estudiantes/gen...', Array, true)
+#8 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(35): view('estudiantes/gen...', Array)
+#9 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->FormRegistrar()
+#10 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#11 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-03-02 17:52:45 --> Undefined variable: datos_est
+#0 C:\xampp\htdocs\TDA-GRUPO4\app\Views\estudiantes\content_table.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(468): CodeIgniter\View\View->render('estudiantes/con...', NULL, true)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Views\estudiantes\general.php(23): CodeIgniter\View\View->include('estudiantes/con...')
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\Common.php(1217): CodeIgniter\View\View->render('estudiantes/gen...', Array, true)
+#8 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(35): view('estudiantes/gen...', Array)
+#9 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->FormRegistrar()
+#10 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#11 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+>>>>>>> 5b3d711cdfd3f84d5afbb979afe96b89115860fa
 #13 {main}
