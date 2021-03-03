@@ -3,7 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\ModelStudent;
-use CodeIgniter\Controller;
+
 class Estudiante extends BaseController
 {
 	public function Index()
@@ -34,7 +34,7 @@ class Estudiante extends BaseController
 		];
 		echo view('estudiantes/general', $data);
 	}
-	public function Registrar()	
+	public function Registrar()
 	{
 		$request = \Config\Services::request();
 		if (!$request->getPost('nombres')) {
@@ -50,6 +50,7 @@ class Estudiante extends BaseController
 			'estu_codigo' => $request->getPost('codigo'),
 			'estu_telf' => $request->getPost('telefono'),
 			'estu_ciclo' => $request->getPost('ciclo'),
+			'estu_nac' => $request->getPost('nacimiento'),
 		);
 		$model = new ModelStudent();
 		$model->InsertData($data);
@@ -71,6 +72,7 @@ class Estudiante extends BaseController
 			'estu_codigo' => $request->getPost('codigo'),
 			'estu_telf' => $request->getPost('telefono'),
 			'estu_ciclo' => $request->getPost('ciclo'),
+			'estu_nac' => $request->getPost('nacimiento'),
 		);
 		$model = new ModelStudent();
 		$model->UpdateData($data, $request->getPost('id'));

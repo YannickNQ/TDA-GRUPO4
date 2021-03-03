@@ -6,6 +6,8 @@
   <div class="card">
     <div class="card-body login-card-body">
       <form action="<?= base_url('Estudiante/Actualizar') ?>" method="post">
+        <!-- id -->
+        <input type="number" style="display:none;" name="id" value="<?= $datos_estu[0]->estu_id ?>">
         <!-- nombres -->
         <div class="input-group mb-3">
           <input type="text" id="nombres" class="form-control " placeholder="nombres" name="nombres" value="<?= $datos_estu[0]->estu_nombres ?>">
@@ -75,6 +77,15 @@
           <div class="input-group-append">
             <div class="input-group-text bg-dark">
               <span class="fas fa-envelope"></span>
+            </div>
+          </div>
+        </div>
+        <!-- nacimiento -->
+        <div class="input-group mb-3">
+          <input type="date" id="nacimiento" class="form-control " placeholder="Fecha de Nacimiento" name="nacimiento" value="<?= $datos_estu[0]->estu_nac ?>">
+          <div class="input-group-append">
+            <div class="input-group-text bg-dark">
+              <span class="fas fa-calendar-alt"></span>
             </div>
           </div>
         </div>

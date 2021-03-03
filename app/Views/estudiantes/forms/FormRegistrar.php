@@ -74,6 +74,15 @@
           </div>
         </div>
       </div>
+      <!-- nacimiento -->
+      <div class="input-group mb-3">
+        <input type="date" id="nacimiento" class="form-control" placeholder="Fecha de Nacimiento" name="nacimiento">
+        <div class="input-group-append">
+          <div class="input-group-text bg-dark">
+            <span class="fas fa-calendar-alt"></span>
+          </div>
+        </div>
+      </div>
       <!-- submit -->
       <div class="d-flex justify-content-center col-12">
         <button type="submit" class="col-6 btn btn-dark btn-sm btn-block">Registrar</button>

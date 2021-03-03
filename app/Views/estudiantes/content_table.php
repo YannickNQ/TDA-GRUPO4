@@ -33,7 +33,7 @@
                 <div class="d-flex justify-content-between">Ciclo<i class="fas fa-graduation-cap d-inline py-1"></i></div>
               </th>
               <th>
-                <div class="d-flex justify-content-between">Fecha de Nacimiento<i class="fas fa-graduation-cap d-inline py-1"></i></div>
+                <div class="d-flex justify-content-between">F. Nacimiento<i class="fas fa-graduation-cap d-inline py-1"></i></div>
               </th>
               <th class="text-center">Option</th>
             </tr>

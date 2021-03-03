@@ -84,7 +84,7 @@
 						</a>
 					</div>
 
-					<div class="flex-col-c p-t-155">
+					<div class="flex-col-c">
 						<span class="txt1 p-b-17">
 							Registrate aqui
 						</span>
