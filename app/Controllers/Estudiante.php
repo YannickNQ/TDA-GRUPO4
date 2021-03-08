@@ -8,6 +8,8 @@ class Estudiante extends BaseController
 {
 	public function Index()
 	{
+		if(!isset($_SESSION['username']))
+			return redirect()->to(base_url());
 		$model = new ModelStudent();
 		$data = [
 			'datos_est' => $model->GetAllData(),
@@ -16,31 +18,31 @@ class Estudiante extends BaseController
 			'content' => 'content_table',
 			'registrarEst' => true,
 		];
-		echo view('estudiantes/general', $data);
-	}
-	public function SimpleTable()
-	{
-		$this->Index();
+		return view('estudiantes/general', $data);
 	}
 	public function DataTable()
 	{
+		if(!isset($_SESSION['username']))
+			return redirect()->to(base_url());
 		$data = [
 			'title' => "Estudiantes",
 			'subtitle' => "DataTable",
 			'content' => "content_datatable",
 			'registrarEst' => true,
 		];
-		echo view('estudiantes/general', $data);
+		return view('estudiantes/general', $data);
 	}
 	public function Select2()
 	{
+		if(!isset($_SESSION['username']))
+			return redirect()->to(base_url());
 		$data = [
 			'title' => "Estudiantes",
 			'subtitle' => "Select2",
 			'content' => "content_select2",
 			'registrarEst' => true,
 		];
-		echo view('estudiantes/general', $data);
+		return view('estudiantes/general', $data);
 	}
 	public function Editar($id)
 	{
@@ -52,6 +54,8 @@ class Estudiante extends BaseController
 	}
 	public function FormRegistrar()
 	{
+		if(!isset($_SESSION['username']))
+			return redirect()->to(base_url());
 		$data = [
 			'title' => 'Estudiante',
 			'content' => 'forms/FormRegistrar',
@@ -61,6 +65,8 @@ class Estudiante extends BaseController
 	}
 	public function Registrar()
 	{
+		if(!isset($_SESSION['username']))
+			return redirect()->to(base_url());
 		$request = \Config\Services::request();
 		if (!$request->getPost('nombres')) {
 			echo "<h3>REDIRECCIONANDO...</h3>";
@@ -79,10 +85,13 @@ class Estudiante extends BaseController
 		);
 		$model = new ModelStudent();
 		$model->InsertData($data);
-		echo '<script> window.location.replace("' . base_url() . '/Estudiante' . '"); </script>';
+		redirect()->to(base_url('/Estudiante'));
+		// echo '<script> window.location.replace("' . base_url() . '/Estudiante' . '"); </script>';
 	}
 	public function Actualizar()
 	{
+		if(!isset($_SESSION['username']))
+			return redirect()->to(base_url());
 		$request = \Config\Services::request();
 		if (!$request->getPost('nombres')) {
 			echo "<h3>REDIRECCIONANDO...</h3>";
@@ -105,6 +114,8 @@ class Estudiante extends BaseController
 	}
 	public function Eliminar($id = null)
 	{
+		if(!isset($_SESSION['username']))
+			return redirect()->to(base_url());
 		// $this->Index();
 		$model = new ModelStudent();
 		$model->DeleteDataById($id);

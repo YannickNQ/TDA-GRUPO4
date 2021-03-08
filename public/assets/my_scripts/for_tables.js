@@ -3,7 +3,6 @@ $(document).ready(function () {
     // Si los la variable es false, evita que `a` se ejecute normalmente
     // e.preventDefault();
     $(".modal-body").load($(this).attr("link") + " .card", function () {
-      alert("aaa");
     });
     // if (!activos) {
     // }

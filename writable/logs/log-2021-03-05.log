@@ -1,0 +1,13 @@
+ERROR - 2021-03-05 11:15:37 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2021-03-05 11:15:37 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\TDA-GRUPO4\app\Models\ModelStudent.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(13): App\Models\ModelStudent->GetAllData()
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Estudiante.php(23): App\Controllers\Estudiante->Index()
+#5 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Estudiante->SimpleTable()
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

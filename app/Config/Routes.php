@@ -34,7 +34,13 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Login::index');
 $routes->add('/Docente', 'Docente::index');
+$routes->add('/Docente/SimpleTable', 'Docente::index');
 $routes->add('/Estudiante', 'Estudiante::index');
+$routes->add('/Estudiante/SimpleTable', 'Estudiante::index');
+$routes->add('/Registrar', 'Login::FormRegistrar');
+$routes->post('/Docente/getDocentes', 'Docente::getDocentes');
+// $routes->add('/Ingresar', 'Login::IniciandoSesion');
+// $routes->add('/(:any)', 'Docente');
 
 
 /*

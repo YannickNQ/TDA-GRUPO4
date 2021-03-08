@@ -7,8 +7,12 @@ use CodeIgniter\Config\View;
 
 class Docente extends BaseController
 {
+	function __construct(){
+	}
 	public function Index()
 	{
+		if(!isset($_SESSION['username']))
+			return redirect()->to(base_url());
 		$model = new ModelDocente();
 		$data = [
 			'datos_doc' => $model->GetAllData(),
@@ -19,12 +23,10 @@ class Docente extends BaseController
 		];
 		echo view('docentes/general', $data);
 	}
-	public function SimpleTable()
-	{
-		$this->Index();
-	}
 	public function DataTable()
 	{
+		if(!isset($_SESSION['username']))
+			return redirect()->to(base_url());
 		$data = [
 			'title' => "Docentes",
 			'subtitle' => "DataTable",
@@ -35,6 +37,8 @@ class Docente extends BaseController
 	}
 	public function Select2()
 	{
+		if(!isset($_SESSION['username']))
+			return redirect()->to(base_url());
 		$data = [
 			'title' => "Docentes",
 			'subtitle' => "Select2",
@@ -45,6 +49,8 @@ class Docente extends BaseController
 	}
 	public function FormRegistrar()
 	{
+		if(!isset($_SESSION['username']))
+			return redirect()->to(base_url());
 		$data = [
 			'title' => "Docente",
 			'content' => "forms/FormRegistrar",
@@ -64,6 +70,8 @@ class Docente extends BaseController
 	}
 	public function Registrar()
 	{
+		if(!isset($_SESSION['username']))
+			return redirect()->to(base_url());
 		$request = \Config\Services::request();
 		if (!$request->getPost('nombres')) {
 			echo "<h3>REDIRECCIONANDO...</h3>";
@@ -88,6 +96,8 @@ class Docente extends BaseController
 	}
 	public function Actualizar()
 	{
+		if(!isset($_SESSION['username']))
+			return redirect()->to(base_url());
 		$request = \Config\Services::request();
 		if (!$request->getPost('nombres')) {
 			echo "<h3>REDIRECCIONANDO...</h3>";
@@ -111,6 +121,8 @@ class Docente extends BaseController
 	}
 	public function Eliminar($id = null)
 	{
+		if(!isset($_SESSION['username']))
+			return redirect()->to(base_url());
 		$model = new ModelDocente();
 		$model->DeleteDataById($id);
 		$this->Index();

@@ -19,6 +19,7 @@ class Filters extends BaseConfig
 		'csrf'     => CSRF::class,
 		'toolbar'  => DebugToolbar::class,
 		'honeypot' => Honeypot::class,
+		// 'SessionFilter' => \App\Filters\SessionFilters::class
 	];
 
 	/**
@@ -58,5 +59,15 @@ class Filters extends BaseConfig
 	 *
 	 * @var array
 	 */
-	public $filters = [];
+	public $filters = [
+		// 'SessionFilter' => [
+		// 	"before" => [
+		// 		"/Docente",
+		// 		"/Estudiante"
+		// 	],
+		// 	"after" => [
+		// 		"/"
+		// 	]
+		// ]
+	];
 }
