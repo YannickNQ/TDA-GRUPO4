@@ -24,6 +24,8 @@ if(!isset($subtitle))
   <link rel="stylesheet" href="<?php echo base_url() ?>/public/plugins/select2/css/select2.min.css">
   <!-- SweetAlert -->
   <link rel="stylesheet" href="<?php echo base_url('/public/sweetalert2/dist/sweetalert2.min.css') ?>">
+  <!-- Bootstrap Switch -->
+  <link rel="stylesheet" href="<?php echo base_url('/public/plugins/bootstrap-switch/css/bootstrap3/bootstrap-switch.min.css') ?>">
 </head>
 <!--
 `body` tag options:
@@ -38,14 +40,26 @@ if(!isset($subtitle))
 <body class="hold-transition sidebar-mini">
   <div class="wrapper">
     <!-- Navbar -->
-    <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <nav class="main-header navbar navbar-expand navbar-light navbar-lightblue">
       <!-- Left navbar links -->
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
+        <li class="nav-item d-flex align-items-center mx-2">
+          <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="customSwitch1">
+            <label class="custom-control-label" for="customSwitch1"> Modo Oscuro</label>
+          </div>
+        </li>
+    <script type="text/javascript">
+    // $(document).ready(function(){
+    //   $('.custom-switch.custom-control').click(function(){
+    //     alert("ara");
+    //   });
+    // });
+    </script>
       </ul>
-
       <!-- Right navbar links -->
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
@@ -61,7 +75,8 @@ if(!isset($subtitle))
     <!-- /.navbar -->
 
     <!-- Main Sidebar Container -->
-    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- <aside class="main-sidebar sidebar-dark-primary elevation-4"> -->
+    <aside class="main-sidebar elevation-4 sidebar-light-lightblue">
       <!-- Brand Logo -->
       <a href="#" class="brand-link">
         <img src="<?php echo base_url() ?>/public/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
@@ -171,7 +186,7 @@ if(!isset($subtitle))
       <strong>Copyright &copy; 2021-2022 <a href="https://cdn.jwplayer.com/players/vW9mB8fi-QGPbMZjv.html">Adoradores del Rey</a>.</strong>
       Todos los derechos reservados.
       <div class="float-right d-none d-sm-inline-block">
-        <b>AdminLTE</b> v-3.1.0-rc
+        <b>UNAP</b>
       </div>
     </footer>
   </div>
@@ -206,6 +221,35 @@ if(!isset($subtitle))
 
   <!-- SweetAlert -->
   <script src="<?php echo base_url('/public/sweetalert2/dist/sweetalert2.min.js') ?>"></script>
+
+  <!-- Bootstrap Switch -->
+  <script src="<?php echo base_url('/public/plugins/bootstrap-switch/js/bootstrap-switch.min.js') ?>"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      omms_a = true;
+      $('#customSwitch1').click(function(){
+        if(omms_a){
+          $('body').addClass('dark-mode');
+          $('body').addClass('accent-olive');
+          // $('nav.main-header').removeClass("navbar-white");
+          $('nav.main-header').removeClass("navbar-light");
+          $('nav.main-header').addClass('navbar-dark navbar-gray-dark');
+          $('aside.main-sidebar').removeClass('sidebar-light-lightblue');
+          $('aside.main-sidebar').addClass('sidebar-dark-olive');
+          omms_a = false;
+        } else {
+          $('body').removeClass('dark-mode');
+          $('body').removeClass('accent-olive');
+          $('nav.main-header').removeClass('navbar-dark navbar-gray-dark');
+          // $('nav.main-header').addClass("navbar-white");
+          $('nav.main-header').addClass("navbar-light");
+          $('aside.main-sidebar').removeClass('sidebar-dark-olive');
+          $('aside.main-sidebar').addClass('sidebar-light-lightblue');
+          omms_a = true;
+        }
+      });
+    });
+    </script>
 </body>
 
 </html>

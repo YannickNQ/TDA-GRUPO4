@@ -11,7 +11,7 @@
       <?php if($registrarDoc):?>
       <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-          <li><a href="<?= base_url() ?>/Docente/FormRegistrar" class="btn btn-outline-dark">Registrar Docente <i class="fas fa-user-plus"></i></a></li>
+          <li><a href="<?= base_url() ?>/Docente/FormRegistrar" class="btn btn-outline-success">Registrar Docente <i class="fas fa-user-plus"></i></a></li>
         </ol>
       </div>
       <?php endif;?>

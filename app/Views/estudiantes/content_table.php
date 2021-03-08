@@ -5,7 +5,7 @@
       </div>
       <div class="card-body table-responsive">
         <table class="table table-hover table-bordered table-sm shadow">
-          <thead class="thead--inverse thead-light">
+          <thead class="thead-inverse">
             <tr>
               <th><i class="fas fa-sort-amount-down"></i></th>
               <th>
