@@ -1,4 +1,4 @@
-<div class="card col-6 mx-auto">
+<div class="card col-5 mx-auto">
   <div class="card-body login-card-body">
     <p class="login-box-msg">Bienvenido! Llena tus datos para que sean registrados</p>
     <form action="<?= base_url('Docente/Registrar') ?>" method="post">
