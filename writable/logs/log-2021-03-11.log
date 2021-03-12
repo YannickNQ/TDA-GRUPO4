@@ -1,0 +1,52 @@
+ERROR - 2021-03-11 21:42:35 --> mysqli_sql_exception: Column 'doce_grado' cannot be null in C:\xampp\htdocs\TDA-GRUPO4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Models\ModelDocente.php(72): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(93): App\Models\ModelDocente->InsertData(Array)
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Registrar()
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#8 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-11 21:42:42 --> mysqli_sql_exception: Column 'doce_grado' cannot be null in C:\xampp\htdocs\TDA-GRUPO4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Models\ModelDocente.php(72): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(93): App\Models\ModelDocente->InsertData(Array)
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Registrar()
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#8 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-11 21:42:46 --> mysqli_sql_exception: Column 'doce_grado' cannot be null in C:\xampp\htdocs\TDA-GRUPO4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Models\ModelDocente.php(72): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(93): App\Models\ModelDocente->InsertData(Array)
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Registrar()
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#8 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-11 21:43:55 --> mysqli_sql_exception: Column 'doce_grado' cannot be null in C:\xampp\htdocs\TDA-GRUPO4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TDA-GRUPO4\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\TDA-GRUPO4\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\TDA-GRUPO4\app\Models\ModelDocente.php(72): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\TDA-GRUPO4\app\Controllers\Docente.php(93): App\Models\ModelDocente->InsertData(Array)
+#6 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(936): App\Controllers\Docente->Registrar()
+#7 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Docente))
+#8 C:\xampp\htdocs\TDA-GRUPO4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TDA-GRUPO4\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

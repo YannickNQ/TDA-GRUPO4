@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>/public/Login/vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>/public/Login/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>/public/Login/fonts/iconic/css/material-design-iconic-font.min.css">
 <!--===============================================================================================-->
@@ -36,7 +37,7 @@
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-54 p-b-54">
 				<!-- <form action="<?php// echo base_url('/Ingresar')?>" class="login100-form validate-form" method="POST"> -->
             <form action="<?php echo base_url('Login/IniciandoSesion')?>" class="login100-form validate-form" method="POST">
-					<span class="login100-form-title p-b-49">Iniciar Sesión</span>
+					<span class="login100-form-title p-b-49">Iniciar Sesión <i class="far fa-user-circle"></i></span>
 
 					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is reauired">
 						<span class="label-input100">Usuario</span>

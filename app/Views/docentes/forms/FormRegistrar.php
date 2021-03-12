@@ -1,7 +1,7 @@
 <div class="card col-5 mx-auto">
   <div class="card-body login-card-body">
     <p class="login-box-msg">Bienvenido! Llena tus datos para que sean registrados</p>
-    <form action="<?= base_url('Docente/Registrar') ?>" method="post">
+    <form action="<?php echo base_url('Docente/Registrar') ?>" method="post">
       <!-- nombres -->
       <div class="input-group mb-3">
         <input type="text" id="nombres" class="form-control " placeholder="Nombres" name="nombres">

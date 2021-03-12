@@ -1,10 +1,16 @@
 <div class="card col-5 mx-auto">
   <div class="card-body login-card-body">
     <p class="login-box-msg">Bienvenido! Llena tus datos para que sean registrados</p>
-    <form action="<?= base_url('Estudiante/Registrar') ?>" method="post">
+    <?php echo form_open(base_url('Estudiante/Registrar'),["method" =>"post"]) ?>
       <!-- nombres -->
       <div class="input-group mb-3">
-        <input type="text" id="nombres" class="form-control " placeholder="nombres" name="nombres">
+        <?php echo form_input([
+            'name'=> "nombre",
+            'id' => "nombre",
+            'placeholder' => "Nombres",
+            'class' => "form-control"
+          ]) 
+        ?>
         <div class="input-group-append">
           <div class="input-group-text bg-dark">
             <span class="fas fa-address-book"></span>
@@ -87,6 +93,6 @@
       <div class="d-flex justify-content-center col-12">
         <button type="submit" class="col-6 btn btn-dark btn-sm btn-block">Registrar</button>
       </div>
-    </form>
+      <?php echo form_close() ?>
   </div>
 </div>

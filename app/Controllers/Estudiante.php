@@ -93,7 +93,8 @@ class Estudiante extends BaseController
 		if(!isset($_SESSION['username']))
 			return redirect()->to(base_url());
 		$request = \Config\Services::request();
-		if (!$request->getPost('nombres')) {
+		if (!$request->getPostGet('nombres')) {
+			return redirect()->to(base_url('/Estudiante'));
 			echo "<h3>REDIRECCIONANDO...</h3>";
 			echo '<script> window.location.replace("' . base_url() . '/Estudiante' . '"); </script>';
 		}
@@ -110,6 +111,7 @@ class Estudiante extends BaseController
 		);
 		$model = new ModelStudent();
 		$model->UpdateData($data, $request->getPost('id'));
+		return redirect()->to(base_url('/Estudiante'));
 		$this->Index();
 	}
 	public function Eliminar($id = null)

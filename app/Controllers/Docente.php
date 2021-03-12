@@ -74,8 +74,7 @@ class Docente extends BaseController
 			return redirect()->to(base_url());
 		$request = \Config\Services::request();
 		if (!$request->getPost('nombres')) {
-			echo "<h3>REDIRECCIONANDO...</h3>";
-			echo '<script> window.location.replace("' . base_url() . '/Docente' . '"); </script>';
+			return redirect()->to(base_url().'/Docente');
 		}
 		$data = array(
 			"doce_nombre" => $request->getPost('nombres'),
@@ -91,8 +90,7 @@ class Docente extends BaseController
 		// print_r($data);
 		$model = new ModelDocente();
 		$model->InsertData($data);
-		// redirect('/Docente/Index');
-		echo '<script> window.location.replace("' . base_url() . '/Docente' . '"); </script>';
+		return redirect()->to(base_url().'/Docente');
 	}
 	public function Actualizar()
 	{
@@ -100,8 +98,7 @@ class Docente extends BaseController
 			return redirect()->to(base_url());
 		$request = \Config\Services::request();
 		if (!$request->getPost('nombres')) {
-			echo "<h3>REDIRECCIONANDO...</h3>";
-			echo '<script> window.location.replace("' . base_url() . '/Docente' . '"); </script>';
+			return redirect()->to(base_url().'/Docente');
 		}
 		$data = array(
 			"doce_nombre" => $request->getPost('nombres'),
@@ -116,8 +113,9 @@ class Docente extends BaseController
 		);
 		$model = new ModelDocente();
 		$model->UpdateData($data, $request->getPost('id'));
+		// return redirect()->to(base_url());
 		$this->Index();
-		// redirect('Docente/Index/');
+		// redirect()->to(base_url('/Docente'));
 	}
 	public function Eliminar($id = null)
 	{
