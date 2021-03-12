@@ -27,7 +27,9 @@ class Docente extends BaseController
 	{
 		if(!isset($_SESSION['username']))
 			return redirect()->to(base_url());
+		$model = new ModelDocente();
 		$data = [
+			'dataTab_doc' => $model->GetAllData(),
 			'title' => "Docentes",
 			'subtitle' => "DataTable",
 			'content' => "content_datatable",
