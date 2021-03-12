@@ -224,8 +224,34 @@ if(!isset($subtitle))
 
   <!-- Bootstrap Switch -->
   <script src="<?php echo base_url('/public/plugins/bootstrap-switch/js/bootstrap-switch.min.js') ?>"></script>
+
+  <!-- DataTables  & Plugins -->
+  <script src="<?php echo base_url('/public/plugins/datatables/jquery.dataTables.min.js') ?>"></script>
+  <script src="<?php echo base_url('/public/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') ?>"></script>
+  <script src="<?php echo base_url('/public/plugins/datatables-responsive/js/dataTables.responsive.min.js') ?>"></script>
+  <script src="<?php echo base_url('/public/plugins/datatables-responsive/js/responsive.bootstrap4.min.js') ?>"></script>
+  <script src="<?php echo base_url('/public/plugins/datatables-buttons/js/dataTables.buttons.min.js') ?>"></script>
+  <script src="<?php echo base_url('/public/plugins/datatables-buttons/js/buttons.bootstrap4.min.js') ?>"></script>
+  <script src="<?php echo base_url('/public/plugins/jszip/jszip.min.js') ?>"></script>
+  <script src="<?php echo base_url('/public/plugins/pdfmake/pdfmake.min.js') ?>"></script>
+  <script src="<?php echo base_url('/public/plugins/pdfmake/vfs_fonts.js') ?>"></script>
+  <script src="<?php echo base_url('/public/plugins/datatables-buttons/js/buttons.html5.min.js') ?>"></script>
+  <script src="<?php echo base_url('/public/plugins/datatables-buttons/js/buttons.print.min.js') ?>"></script>
+  <script src="<?php echo base_url('/public/plugins/datatables-buttons/js/buttons.colVis.min.js') ?>"></script>
+
+  <script src="<?php echo base_url('/public/DataTable/buttons.html5.min.js') ?>"></script>
+  <script src="<?php echo base_url('/public/DataTable/dataTables.buttons.min.js') ?>"></script>
+  <script src="<?php echo base_url('/public/DataTable/jszip.min.js') ?>"></script>
+  <script src="<?php echo base_url('/public/DataTable/pdfmake.min.js') ?>"></script>
+  <script src="<?php echo base_url('/public/DataTable/vfs_fonts.js') ?>"></script>
+
   <script type="text/javascript">
     $(document).ready(function(){
+      $("#DT").DataTable({
+          "responsive": true, "lengthChange": false, "autoWidth": false,
+          "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+      }).buttons().container().appendTo('#CD .col-md-6:eq(0)');
+
       omms_a = true;
       $('#customSwitch1').click(function(){
         if(omms_a){
